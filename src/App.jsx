@@ -2,6 +2,8 @@ import React from 'react'
 import Top from './Components/HeaderComponent/Top'
 import Header from './Components/HeaderComponent/Header'
 import HeaderBottom from './Components/HeaderComponent/HeaderBottom'
+import FooterTop from './Components/FooterComponent/FooterTop'
+import Footer from './Components/FooterComponent/Footer'
 
 function App() {
   return (
@@ -9,6 +11,9 @@ function App() {
       <Top/>
       <Header/>
       <HeaderBottom/>
+      <h1>Hello</h1>
+      <FooterTop/>
+      <Footer/>
     </>
   )
 }
