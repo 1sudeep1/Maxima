@@ -11,7 +11,6 @@ function App() {
       <Top/>
       <Header/>
       <HeaderBottom/>
-      <h1>Hello</h1>
       <FooterTop/>
       <Footer/>
     </>

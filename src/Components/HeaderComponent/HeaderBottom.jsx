@@ -1,5 +1,7 @@
 import React from 'react'
 import "./headerBottom.scss"
+import { Route, Routes } from 'react-router-dom'
+import Home from '../../Pages/Home'
 function HeaderBottom() {
     return (
         <>
@@ -16,7 +18,7 @@ function HeaderBottom() {
                                 </div>
                                 <div className="col-lg-6">
                                     <div className='d-flex align-items-center gap-2'>
-                                    <i className="fa-solid fa-handshake-simple"></i>
+                                        <i className="fa-solid fa-handshake-simple"></i>
                                         <h5 className='m-0'>Partners</h5>
                                     </div>
                                 </div>
@@ -32,6 +34,9 @@ function HeaderBottom() {
                     </div>
                 </div>
             </section>
+            <Routes>
+                <Route path="/" element={<Home />} />
+            </Routes>
         </>
     )
 }
