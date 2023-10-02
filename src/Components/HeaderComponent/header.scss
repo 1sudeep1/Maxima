@@ -1,0 +1,39 @@
+header{
+    background: #F8F9FA;
+}
+.logo{
+    width: 45%;
+}
+.search {
+    input{
+        border-radius: 20px !important;
+        padding: 5px 10px;
+    }
+
+    .fa-magnifying-glass {
+        font-size: 20px;
+        font-weight: 600;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background: #0C48E4;
+        padding: 10px 8px;
+        color: #fff;
+        border-radius: 0 20px 20px 0;
+    }
+}
+
+.header-icon{
+    p{
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .cart-badge{
+        font-size: 15px; font-weight: bold; color: #fff; 
+        width: 25px; height: 25px;
+        top: -0.1rem; right:-1.3rem;
+        background: red;
+        padding: 3px 0 0 0 5px;
+        border-radius: 50%;
+    }
+}
