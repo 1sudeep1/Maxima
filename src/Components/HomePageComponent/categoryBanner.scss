@@ -10,12 +10,17 @@
     }
     p{
         font-weight: 400;
-        font-size: 20px;
+        font-size: 16px;
     }
-    .category-item:hover{
-        background-color: #0A39E8;
-        color: #fff;
-        cursor: pointer;
+    .category-item{
+        &:hover{
+            background-color: #0A39E8;
+            color: #fff;
+            cursor: pointer;
+        }
+        .fa-chevron-right{
+            font-size: 10px;
+        }
     }
 }
 
