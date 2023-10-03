@@ -1,10 +1,13 @@
 .product-card {
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
     overflow: hidden;
-    height: 260px;
+    height: 250px;
 
     .product-img-div {
         overflow: hidden;
+        .product-img{
+            width: 60% !important;
+        }
 
         .cart-btn {
             bottom: 0;
