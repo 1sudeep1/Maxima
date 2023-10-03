@@ -47,5 +47,30 @@ const NewArrivalsData = [
         productTitle:'AX PRO with big battery size',
         productPrice:'32420'
     },
+    {
+        id:9,
+        productImage:'http://maxima.com.np/media/uploads/33_4lS16kL.jpg',
+        productTitle:'42.5 inch FHD Monitor',
+        productPrice:'2400'
+    },
+    {
+        id:10,
+        productImage:'http://maxima.com.np/media/uploads/32_u9oXT5H.jpg',
+        productTitle:'65.5 inch 4K Interactive Flat Panel',
+        productPrice:'0'
+    },
+    {
+        id:11,
+        id:18,
+        productImage:'http://maxima.com.np/media/uploads/32_mPDaMdD.jpg',
+        productTitle:'KH6 Series IP-Based Indoor Station',
+        productPrice:'0'
+    },
+    {
+        id:12,
+        productImage:'http://maxima.com.np/media/uploads/32_0J8VZCg.jpg',
+        productTitle:'Villa Analog Kit (DS-KIS203T)',
+        productPrice:'32420'
+    },
 ]
 export default NewArrivalsData
