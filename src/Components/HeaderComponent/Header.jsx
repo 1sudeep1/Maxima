@@ -28,8 +28,8 @@ function Header() {
                   <p>My Cart</p>
                   <p className='position-absolute cart-badge'>0</p>
                 </li>
-                <li><i className="fa-solid fa-user"></i>
-                  <p>My account</p>
+                <li><Link to="/login"><i className="fa-solid fa-user"></i>
+                  <p>My account</p></Link>
                 </li>
               </ul>
             </div>
