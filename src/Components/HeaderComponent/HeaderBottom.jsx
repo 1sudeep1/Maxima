@@ -4,6 +4,10 @@ import { Route, Routes } from 'react-router-dom'
 import Home from '../../Pages/Home'
 import Login from '../../Pages/Login'
 import Register from '../../Pages/Register'
+import NewArrivals from '../CategoryWiseProductComponent/NewArrivals'
+import LaptopComputer from '../CategoryWiseProductComponent/LaptopComputer'
+import Cameras from '../CategoryWiseProductComponent/Cameras'
+import NetworkProduct from '../CategoryWiseProductComponent/NetworkProduct'
 function HeaderBottom() {
     return (
         <>
@@ -40,6 +44,10 @@ function HeaderBottom() {
                 <Route path="/" element={<Home />} />
                 <Route path="/login" element={<Login />} />
                 <Route path="/register" element={<Register />} />
+                <Route path="/new-arrivals" element={<NewArrivals />} />
+                <Route path="/laptop-computers" element={<LaptopComputer />} />
+                <Route path="/cameras" element={<Cameras />} />
+                <Route path="/network-products" element={<NetworkProduct />} />
             </Routes>
         </>
     )

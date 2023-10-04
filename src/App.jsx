@@ -4,6 +4,7 @@ import Header from './Components/HeaderComponent/Header'
 import HeaderBottom from './Components/HeaderComponent/HeaderBottom'
 import FooterTop from './Components/FooterComponent/FooterTop'
 import Footer from './Components/FooterComponent/Footer'
+import ScrollToTop from './Components/ScrollTopTop/ScrollToTop'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <HeaderBottom/>
       <FooterTop/>
       <Footer/>
+      <ScrollToTop/>
     </>
   )
 }

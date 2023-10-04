@@ -1,23 +1,15 @@
 import React from 'react'
 import "./newArrivals.scss"
 import { Link } from 'react-router-dom'
-import LaptopComputerData from '../../Data/LaptopComputerData'
-function LaptopComputer() {
+import NewArrivalsData from '../../Data/NewArrivalsData'
+function NewArrivals() {
     return (
         <>
             <section>
                 <div className="container my-5 bg-white p-3">
-                    <div className="row justify-content-between align-items-center">
-                        <div className="col-lg-3">
-                            <h5 className='text-uppercase fw-bold'>Laptops and computers</h5>
-                        </div>
-                        <div className="col-lg-2 col-sm-3 col-4">
-                            <p><Link to="">VIEW MORE</Link></p>
-                        </div>
-                    </div>
-
+                    <h5 className='text-uppercase fw-bold'>New Arrivals</h5>
                     <div className="row row-gap-3 my-3">
-                        {LaptopComputerData.map((item) => (
+                        {NewArrivalsData.slice(0, 12).map((item) => (
                             <div className="col-lg-2" key={item.id}>
                                 <div className='d-flex flex-column text-center align-items-center product-card position-relative'>
                                     <div className='position-relative product-img-div'>
@@ -25,7 +17,7 @@ function LaptopComputer() {
                                         <Link to=""><button className='cart-btn position-absolute fw-bold'>Add to Cart</button></Link>
                                     </div>
                                     <div className="leftservice-icon position-absolute">
-                                        <div className='d-flex flex-column align-items-center row-gap-2 justify-content-center'>
+                                        <div className='d-flex align-items-center gap-2 justify-content-center'>
                                             <Link to="" title='link'><i className="fa-solid fa-link"></i></Link>
                                             <Link to="" title='add to cart'><i className="fa-solid fa-cart-shopping"></i></Link>
                                             <Link to="" title='wishlist'><i className="fa-solid fa-heart"></i></Link>
@@ -50,4 +42,4 @@ function LaptopComputer() {
     )
 }
 
-export default LaptopComputer
+export default NewArrivals
