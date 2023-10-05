@@ -1,6 +1,6 @@
 import React from 'react'
 import "./headerBottom.scss"
-import { Route, Routes } from 'react-router-dom'
+import { Link, Route, Routes } from 'react-router-dom'
 import Home from '../../Pages/Home'
 import Login from '../../Pages/Login'
 import Register from '../../Pages/Register'
@@ -8,6 +8,7 @@ import NewArrivals from '../CategoryWiseProductComponent/NewArrivals'
 import LaptopComputer from '../CategoryWiseProductComponent/LaptopComputer'
 import Cameras from '../CategoryWiseProductComponent/Cameras'
 import NetworkProduct from '../CategoryWiseProductComponent/NetworkProduct'
+import SingleProduct from '../../Pages/SingleProduct'
 function HeaderBottom() {
     return (
         <>
@@ -19,7 +20,7 @@ function HeaderBottom() {
                                 <div className="col-lg-6">
                                     <div className='d-flex align-items-center gap-2'>
                                         <i className="fa-solid fa-star fs-6"></i>
-                                        <h5 className='m-0'>New Arrival</h5>
+                                        <Link to="new-arrivals"><h5 className='m-0'>New Arrival</h5></Link>
                                     </div>
                                 </div>
                                 <div className="col-lg-6">
@@ -48,6 +49,7 @@ function HeaderBottom() {
                 <Route path="/laptop-computers" element={<LaptopComputer />} />
                 <Route path="/cameras" element={<Cameras />} />
                 <Route path="/network-products" element={<NetworkProduct />} />
+                <Route path="/single-product/:sid" element={<SingleProduct />} />
             </Routes>
         </>
     )

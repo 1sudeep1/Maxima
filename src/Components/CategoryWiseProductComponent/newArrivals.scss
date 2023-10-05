@@ -3,9 +3,14 @@
     overflow: hidden;
     height: 250px;
 
+    a {
+        color: #000;
+    }
+
     .product-img-div {
         overflow: hidden;
-        .product-img{
+
+        .product-img {
             width: 60% !important;
         }
 
@@ -22,7 +27,7 @@
     }
 
     .leftservice-icon {
-        transform: translateX(-150px);
+        transform: translateX(-160px);
         font-size: 12px;
 
         .fa-heart {
@@ -48,6 +53,7 @@
         cursor: pointer;
         transform: scale(1.005);
         transition: 0.9s;
+
         .cart-btn {
             display: block;
         }

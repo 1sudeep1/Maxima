@@ -1,0 +1,33 @@
+.cart-btn{
+    background-color: #0D52E0;
+    color: #fff;
+    border-radius: 5px;
+    &:hover{
+        transform: scale(0.9);
+        transition: 0.2s;
+    }
+}
+
+.features{
+    p{
+        margin: 0;
+    }
+    .fa-circle{
+       font-size: 5px;
+    }
+}
+
+.fa-asterisk{
+    font-size: 8px;
+}
+
+.rating-star{
+    cursor: pointer;
+    .active{
+        color: #FF9C1A;
+    }
+}
+.product-img:hover{
+    transform: scale(1.009);
+    transition: 0.4s;
+}

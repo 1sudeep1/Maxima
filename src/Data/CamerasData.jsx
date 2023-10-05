@@ -3,73 +3,121 @@ const CamerasData = [
         id:25,
         productImage:'http://maxima.com.np/media/uploads/E7C432_pXFSCTW.jpg',
         productTitle:'7-inch 4 MP 32X Powered by DarkFighter IR Network Speed Dome',
-        productPrice:'0'
+        productPrice:'0',
+        productStock:'In Stock',
+        productCode:'DS-KIS203T',
+        productDescription:'Ultra HD display with up to 3840 × 2160 resolution of input signal available. 20px ultra fine writing, and 2 mm diameter recognizable with the precision of 1 mm. Built-in Wi-Fi realizes miracasting without any cable connection. Built-in interactive whiteboard system allows annotating and sharing by QR code. Looping-out display available. Various audio and video interfaces for device access. Built-in network switch chip saves a network switch.',
+        productFeatures: ['Code: AKS24T-KAA-C6C/BK', '24 port Patch Panel→', 'Panel: SPCC, 1.5mm thickness with Black (RAL 9005) color painted.', 'cable holder: Nylon', 'PCB: FR4 Ul 94V-0', 'IDC', 'RJ45 Jack', 'RJ45 jack contact'],
     },
     {
         id:26,
         productImage:'http://maxima.com.np/media/uploads/E7C432_pXFSCTW.jpg',
         productTitle:'7-inch 4 MP 32X Powered by DarkFighter IR Network Speed Dome',
-        productPrice:'0'
+        productPrice:'0',
+        productStock:'In Stock',
+        productCode:'DS-KIS203T',
+        productDescription:'Ultra HD display with up to 3840 × 2160 resolution of input signal available. 20px ultra fine writing, and 2 mm diameter recognizable with the precision of 1 mm. Built-in Wi-Fi realizes miracasting without any cable connection. Built-in interactive whiteboard system allows annotating and sharing by QR code. Looping-out display available. Various audio and video interfaces for device access. Built-in network switch chip saves a network switch.',
+        productFeatures: ['Code: AKS24T-KAA-C6C/BK', '24 port Patch Panel→', 'Panel: SPCC, 1.5mm thickness with Black (RAL 9005) color painted.', 'cable holder: Nylon', 'PCB: FR4 Ul 94V-0', 'IDC', 'RJ45 Jack', 'RJ45 jack contact'],
     },
     {
         id:27,
         productImage:'http://maxima.com.np/media/uploads/E7C432_pXFSCTW.jpg',
         productTitle:'7-inch 4 MP 32X Powered by DarkFighter IR Network Speed Dome',
-        productPrice:'0'
+        productPrice:'0',
+        productStock:'In Stock',
+        productCode:'DS-KIS203T',
+        productDescription:'Ultra HD display with up to 3840 × 2160 resolution of input signal available. 20px ultra fine writing, and 2 mm diameter recognizable with the precision of 1 mm. Built-in Wi-Fi realizes miracasting without any cable connection. Built-in interactive whiteboard system allows annotating and sharing by QR code. Looping-out display available. Various audio and video interfaces for device access. Built-in network switch chip saves a network switch.',
+        productFeatures: ['Code: AKS24T-KAA-C6C/BK', '24 port Patch Panel→', 'Panel: SPCC, 1.5mm thickness with Black (RAL 9005) color painted.', 'cable holder: Nylon', 'PCB: FR4 Ul 94V-0', 'IDC', 'RJ45 Jack', 'RJ45 jack contact'],
     },
     {
         id:28,
         productImage:'http://maxima.com.np/media/uploads/E7C432_pXFSCTW.jpg',
         productTitle:'7-inch 4 MP 32X Powered by DarkFighter IR Network Speed Dome',
-        productPrice:'0'
+        productPrice:'0',
+        productStock:'In Stock',
+        productCode:'DS-KIS203T',
+        productDescription:'Ultra HD display with up to 3840 × 2160 resolution of input signal available. 20px ultra fine writing, and 2 mm diameter recognizable with the precision of 1 mm. Built-in Wi-Fi realizes miracasting without any cable connection. Built-in interactive whiteboard system allows annotating and sharing by QR code. Looping-out display available. Various audio and video interfaces for device access. Built-in network switch chip saves a network switch.',
+        productFeatures: ['Code: AKS24T-KAA-C6C/BK', '24 port Patch Panel→', 'Panel: SPCC, 1.5mm thickness with Black (RAL 9005) color painted.', 'cable holder: Nylon', 'PCB: FR4 Ul 94V-0', 'IDC', 'RJ45 Jack', 'RJ45 jack contact'],
     },
     {
         id:29,
         productImage:'http://maxima.com.np/media/uploads/E7C432_pXFSCTW.jpg',
         productTitle:'7-inch 4 MP 32X Powered by DarkFighter IR Network Speed Dome',
-        productPrice:'0'
+        productPrice:'0',
+        productStock:'In Stock',
+        productCode:'DS-KIS203T',
+        productDescription:'Ultra HD display with up to 3840 × 2160 resolution of input signal available. 20px ultra fine writing, and 2 mm diameter recognizable with the precision of 1 mm. Built-in Wi-Fi realizes miracasting without any cable connection. Built-in interactive whiteboard system allows annotating and sharing by QR code. Looping-out display available. Various audio and video interfaces for device access. Built-in network switch chip saves a network switch.',
+        productFeatures: ['Code: AKS24T-KAA-C6C/BK', '24 port Patch Panel→', 'Panel: SPCC, 1.5mm thickness with Black (RAL 9005) color painted.', 'cable holder: Nylon', 'PCB: FR4 Ul 94V-0', 'IDC', 'RJ45 Jack', 'RJ45 jack contact'],
     },
     {
         id:30,
         productImage:'http://maxima.com.np/media/uploads/E7C432_pXFSCTW.jpg',
         productTitle:'7-inch 4 MP 32X Powered by DarkFighter IR Network Speed Dome',
-        productPrice:'0'
+        productPrice:'0',
+        productStock:'In Stock',
+        productCode:'DS-KIS203T',
+        productDescription:'Ultra HD display with up to 3840 × 2160 resolution of input signal available. 20px ultra fine writing, and 2 mm diameter recognizable with the precision of 1 mm. Built-in Wi-Fi realizes miracasting without any cable connection. Built-in interactive whiteboard system allows annotating and sharing by QR code. Looping-out display available. Various audio and video interfaces for device access. Built-in network switch chip saves a network switch.',
+        productFeatures: ['Code: AKS24T-KAA-C6C/BK', '24 port Patch Panel→', 'Panel: SPCC, 1.5mm thickness with Black (RAL 9005) color painted.', 'cable holder: Nylon', 'PCB: FR4 Ul 94V-0', 'IDC', 'RJ45 Jack', 'RJ45 jack contact'],
     },
     {
         id:31,
         productImage:'http://maxima.com.np/media/uploads/E7C432_pXFSCTW.jpg',
         productTitle:'7-inch 4 MP 32X Powered by DarkFighter IR Network Speed Dome',
-        productPrice:'0'
+        productPrice:'0',
+        productStock:'In Stock',
+        productCode:'DS-KIS203T',
+        productDescription:'Ultra HD display with up to 3840 × 2160 resolution of input signal available. 20px ultra fine writing, and 2 mm diameter recognizable with the precision of 1 mm. Built-in Wi-Fi realizes miracasting without any cable connection. Built-in interactive whiteboard system allows annotating and sharing by QR code. Looping-out display available. Various audio and video interfaces for device access. Built-in network switch chip saves a network switch.',
+        productFeatures: ['Code: AKS24T-KAA-C6C/BK', '24 port Patch Panel→', 'Panel: SPCC, 1.5mm thickness with Black (RAL 9005) color painted.', 'cable holder: Nylon', 'PCB: FR4 Ul 94V-0', 'IDC', 'RJ45 Jack', 'RJ45 jack contact'],
     },
     {
         id:32,
         productImage:'http://maxima.com.np/media/uploads/E7C432_pXFSCTW.jpg',
         productTitle:'7-inch 4 MP 32X Powered by DarkFighter IR Network Speed Dome',
-        productPrice:'0'
+        productPrice:'0',
+        productStock:'In Stock',
+        productCode:'DS-KIS203T',
+        productDescription:'Ultra HD display with up to 3840 × 2160 resolution of input signal available. 20px ultra fine writing, and 2 mm diameter recognizable with the precision of 1 mm. Built-in Wi-Fi realizes miracasting without any cable connection. Built-in interactive whiteboard system allows annotating and sharing by QR code. Looping-out display available. Various audio and video interfaces for device access. Built-in network switch chip saves a network switch.',
+        productFeatures: ['Code: AKS24T-KAA-C6C/BK', '24 port Patch Panel→', 'Panel: SPCC, 1.5mm thickness with Black (RAL 9005) color painted.', 'cable holder: Nylon', 'PCB: FR4 Ul 94V-0', 'IDC', 'RJ45 Jack', 'RJ45 jack contact'],
     },
     {
         id:33,
         productImage:'http://maxima.com.np/media/uploads/E7C432_pXFSCTW.jpg',
         productTitle:'7-inch 4 MP 32X Powered by DarkFighter IR Network Speed Dome',
-        productPrice:'0'
+        productPrice:'0',
+        productStock:'In Stock',
+        productCode:'DS-KIS203T',
+        productDescription:'Ultra HD display with up to 3840 × 2160 resolution of input signal available. 20px ultra fine writing, and 2 mm diameter recognizable with the precision of 1 mm. Built-in Wi-Fi realizes miracasting without any cable connection. Built-in interactive whiteboard system allows annotating and sharing by QR code. Looping-out display available. Various audio and video interfaces for device access. Built-in network switch chip saves a network switch.',
+        productFeatures: ['Code: AKS24T-KAA-C6C/BK', '24 port Patch Panel→', 'Panel: SPCC, 1.5mm thickness with Black (RAL 9005) color painted.', 'cable holder: Nylon', 'PCB: FR4 Ul 94V-0', 'IDC', 'RJ45 Jack', 'RJ45 jack contact'],
     },
     {
         id:34,
         productImage:'http://maxima.com.np/media/uploads/E7C432_pXFSCTW.jpg',
         productTitle:'7-inch 4 MP 32X Powered by DarkFighter IR Network Speed Dome',
-        productPrice:'0'
+        productPrice:'0',
+        productStock:'In Stock',
+        productCode:'DS-KIS203T',
+        productDescription:'Ultra HD display with up to 3840 × 2160 resolution of input signal available. 20px ultra fine writing, and 2 mm diameter recognizable with the precision of 1 mm. Built-in Wi-Fi realizes miracasting without any cable connection. Built-in interactive whiteboard system allows annotating and sharing by QR code. Looping-out display available. Various audio and video interfaces for device access. Built-in network switch chip saves a network switch.',
+        productFeatures: ['Code: AKS24T-KAA-C6C/BK', '24 port Patch Panel→', 'Panel: SPCC, 1.5mm thickness with Black (RAL 9005) color painted.', 'cable holder: Nylon', 'PCB: FR4 Ul 94V-0', 'IDC', 'RJ45 Jack', 'RJ45 jack contact'],
     },
     {
         id:35,
         productImage:'http://maxima.com.np/media/uploads/E7C432_pXFSCTW.jpg',
         productTitle:'7-inch 4 MP 32X Powered by DarkFighter IR Network Speed Dome',
-        productPrice:'0'
+        productPrice:'0',
+        productStock:'In Stock',
+        productCode:'DS-KIS203T',
+        productDescription:'Ultra HD display with up to 3840 × 2160 resolution of input signal available. 20px ultra fine writing, and 2 mm diameter recognizable with the precision of 1 mm. Built-in Wi-Fi realizes miracasting without any cable connection. Built-in interactive whiteboard system allows annotating and sharing by QR code. Looping-out display available. Various audio and video interfaces for device access. Built-in network switch chip saves a network switch.',
+        productFeatures: ['Code: AKS24T-KAA-C6C/BK', '24 port Patch Panel→', 'Panel: SPCC, 1.5mm thickness with Black (RAL 9005) color painted.', 'cable holder: Nylon', 'PCB: FR4 Ul 94V-0', 'IDC', 'RJ45 Jack', 'RJ45 jack contact'],
     },
     {
         id:36,
         productImage:'http://maxima.com.np/media/uploads/E7C432_pXFSCTW.jpg',
         productTitle:'7-inch 4 MP 32X Powered by DarkFighter IR Network Speed Dome',
-        productPrice:'0'
+        productPrice:'0',
+        productStock:'In Stock',
+        productCode:'DS-KIS203T',
+        productDescription:'Ultra HD display with up to 3840 × 2160 resolution of input signal available. 20px ultra fine writing, and 2 mm diameter recognizable with the precision of 1 mm. Built-in Wi-Fi realizes miracasting without any cable connection. Built-in interactive whiteboard system allows annotating and sharing by QR code. Looping-out display available. Various audio and video interfaces for device access. Built-in network switch chip saves a network switch.',
+        productFeatures: ['Code: AKS24T-KAA-C6C/BK', '24 port Patch Panel→', 'Panel: SPCC, 1.5mm thickness with Black (RAL 9005) color painted.', 'cable holder: Nylon', 'PCB: FR4 Ul 94V-0', 'IDC', 'RJ45 Jack', 'RJ45 jack contact'],
     },
 ]
 export default CamerasData

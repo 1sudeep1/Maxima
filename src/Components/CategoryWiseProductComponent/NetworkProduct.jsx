@@ -14,7 +14,7 @@ function NetworkProduct() {
                     <div className="col-lg-2" key={item.id}>
                         <div className='d-flex flex-column text-center align-items-center product-card position-relative'>
                             <div className='position-relative product-img-div'>
-                                <img className='w-75 img-fluid thumbnails product-img' src={item.productImage} alt="" />
+                            <Link to={`/single-product/${item.id}`}> <img className='w-75 img-fluid thumbnails product-img' src={item.productImage} alt="" /></Link>
                                 <Link to=""><button className='cart-btn position-absolute fw-bold'>Add to Cart</button></Link>
                             </div>
                             <div className="leftservice-icon position-absolute">
@@ -24,15 +24,15 @@ function NetworkProduct() {
                                     <Link to="" title='wishlist'><i className="fa-solid fa-heart"></i></Link>
                                 </div>
                             </div>
-                            <h6>{item.productTitle}</h6>
-                            <ul className='d-flex gap-1 justify-content-start p-0 text-secondary'>
+                            <Link to={`/single-product/${item.id}`}><h6>{item.productTitle}</h6></Link>
+                            <Link to={`/single-product/${item.id}`}><ul className='d-flex gap-1 justify-content-start p-0 text-secondary'>
                                 <li><i className="fa-regular fa-star"></i></li>
                                 <li><i className="fa-regular fa-star"></i></li>
                                 <li><i className="fa-regular fa-star"></i></li>
                                 <li><i className="fa-regular fa-star"></i></li>
                                 <li><i className="fa-regular fa-star"></i></li>
-                            </ul>
-                            <p className='text-danger'>Price Rs {item.productPrice}</p>
+                            </ul></Link>
+                            <Link to={`/single-product/${item.id}`}><p className='text-danger'>Price Rs {item.productPrice}</p></Link>
                         </div>
                     </div>
                 ))}

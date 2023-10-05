@@ -41,11 +41,11 @@ function Footer() {
                                 </div>
                                 <div className='d-flex align-items-center gap-2'>
                                     <i className="fa-solid fa-arrow-right"></i>
-                                    <Link to="">New Arrivals</Link>
+                                    <Link to="/new-arrivals">New Arrivals</Link>
                                 </div>
                                 <div className='d-flex align-items-center gap-2'>
                                     <i className="fa-solid fa-arrow-right"></i>
-                                    <Link to="">CCTV Camaras</Link>
+                                    <Link to="/cameras">Cameras</Link>
                                 </div>
                             </div>
                         </div>
@@ -65,14 +65,14 @@ function Footer() {
                         <div className="row justify-content-between align-items-center">
                             <div className="col-lg-1 col-sm-4 col-12">
                                 <ul className='d-flex gap-3 p-0 m-0 icon-center'>
-                                    <li> <Link to="https://www.facebook.com/HikvisionNepalOfficial"> <i className="fa-brands fa-facebook  text-white" title='facebook'></i></Link></li>
-                                    <li> <Link to="https://www.facebook.com/HikvisionNepalOfficial"> <i className="fa-brands fa-twitter  text-white"></i></Link></li>
-                                    <li> <Link to="https://www.facebook.com/HikvisionNepalOfficial"> <i className="fa-brands fa-instagram  text-white"></i></Link></li>
-                                    <li> <Link to="https://www.facebook.com/HikvisionNepalOfficial"> <i className="fa-brands fa-youtube  text-white"></i></Link></li>
+                                    <li> <Link to="https://www.facebook.com/HikvisionNepalOfficial" target='_blank'> <i className="fa-brands fa-facebook  text-white" title='facebook'></i></Link></li>
+                                    <li> <Link to="" target='_blank'> <i className="fa-brands fa-twitter  text-white"></i></Link></li>
+                                    <li> <Link to="" target='_blank'> <i className="fa-brands fa-instagram  text-white"></i></Link></li>
+                                    <li> <Link to="" target='_blank'> <i className="fa-brands fa-youtube  text-white"></i></Link></li>
                                 </ul>
                             </div>
                             <div className="col-lg-6 text-end col-sm-12 col-6 copyright">
-                                <Link to="">©2023 Maxima Pvt. Ltd. All Right Reserved. Developed by Radiant Infotech</Link>
+                                <Link to="https://radiantnepal.com/" target='_blank'>©2023 Maxima Pvt. Ltd. All Right Reserved. Developed by Radiant Infotech</Link>
                             </div>
                         </div>
                     </div>
