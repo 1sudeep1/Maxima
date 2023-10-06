@@ -8,13 +8,17 @@ import NetworkProductData from '../../Data/NetworkProductData';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
+import wearableData from '../../Data/WearableData';
+import storageData from '../../Data/StorageData';
+import audioData from '../../Data/AudioData';
+import mobileTabletData from '../../Data/MobileTabletData';
 function SingleProductDetails() {
     const { sid } = useParams();
     const [currentProduct, setCurrentProduct] = useState('');
     const [relatedProduct, setRelatedProduct] = useState([]);
     useEffect(() => {
         const findCurrentProduct = () => {
-            const allProducts = [...NewArrivalsData, ...LaptopComputerData, ...CamerasData, ...NetworkProductData];
+            const allProducts = [...NewArrivalsData, ...LaptopComputerData, ...CamerasData, ...NetworkProductData, ...wearableData, ...storageData, ...audioData, ...mobileTabletData];
             return allProducts.find((product) => product.id == sid);
         };
         const product = findCurrentProduct();
@@ -32,6 +36,14 @@ function SingleProductDetails() {
             catData = CamerasData;
         } else if (NetworkProductData.find((item) => item.id === parseInt(sid))) {
             catData = NetworkProductData;
+        }else if (wearableData.find((item) => item.id === parseInt(sid))) {
+            catData = wearableData;
+        }else if (storageData.find((item) => item.id === parseInt(sid))) {
+            catData = storageData
+        }else if (audioData.find((item) => item.id === parseInt(sid))) {
+            catData = audioData
+        }else if (mobileTabletData.find((item) => item.id === parseInt(sid))) {
+            catData = mobileTabletData
         }
         const related = findRelatedProduct(catData)
         setRelatedProduct(related);
@@ -92,7 +104,7 @@ function SingleProductDetails() {
                 loop: true
             },
             1000: {
-                items: 8,
+                items: 6,
                 nav: true,
                 loop: true
             }

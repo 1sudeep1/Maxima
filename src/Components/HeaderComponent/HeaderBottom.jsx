@@ -9,6 +9,13 @@ import LaptopComputer from '../CategoryWiseProductComponent/LaptopComputer'
 import Cameras from '../CategoryWiseProductComponent/Cameras'
 import NetworkProduct from '../CategoryWiseProductComponent/NetworkProduct'
 import SingleProduct from '../../Pages/SingleProduct'
+import NetworkCategory from '../../Pages/NetworkCategory'
+import CameraCategory from '../../Pages/CameraCategory'
+import WearableCategory from '../../Pages/WearableCategory'
+import StorageCategory from '../../Pages/StorageCategory'
+import AudioCategory from '../../Pages/AudioCategory'
+import MobileTabletCategory from '../../Pages/MobileTabletCategory'
+import LaptopComputerCategory from '../../Pages/LaptopComputerCategory'
 function HeaderBottom() {
     return (
         <>
@@ -50,6 +57,13 @@ function HeaderBottom() {
                 <Route path="/cameras" element={<Cameras />} />
                 <Route path="/network-products" element={<NetworkProduct />} />
                 <Route path="/single-product/:sid" element={<SingleProduct />} />
+                <Route path="/network-category/:subcat" element={<NetworkCategory />} />
+                <Route path="/camera-category/:subcat" element={<CameraCategory />} />
+                <Route path="/wearable-category/:subcat" element={<WearableCategory />} />
+                <Route path="/storage-category/:subcat" element={<StorageCategory />} />
+                <Route path="/audio-category/:subcat" element={<AudioCategory />} />
+                <Route path="/mobile-tablet-category/:subcat" element={<MobileTabletCategory />} />
+                <Route path="/laptop-computer-category/:subcat" element={<LaptopComputerCategory />} />
             </Routes>
         </>
     )
