@@ -1,0 +1,38 @@
+.banner-section {
+    .banner-image {
+        max-height: 300px;
+    }
+    .dark{
+        background-color: rgba(0, 0, 0, 0.486);
+        height: 100%;
+        width: 100%;
+        top: 0;
+    }
+    .banner-title{
+        top: 40% !important;
+        color: red;
+    }
+
+    .breadcrumb-section, .banner-title {
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+
+        .breadcrumb-item {
+            font-size: 14px;
+            font-weight: 500;
+
+            a {
+                color: #fff;
+                &:hover{
+                    color: red;
+                }
+            }
+        }
+
+        .active {
+            color: red !important;
+        }
+    }
+}
