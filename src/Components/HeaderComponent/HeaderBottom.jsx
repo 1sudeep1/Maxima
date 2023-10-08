@@ -17,6 +17,7 @@ import AudioCategory from '../../Pages/AudioCategory'
 import MobileTabletCategory from '../../Pages/MobileTabletCategory'
 import LaptopComputerCategory from '../../Pages/LaptopComputerCategory'
 import Contact from '../../Pages/Contact'
+import SearchProduct from '../../Pages/SearchProduct'
 function HeaderBottom() {
     return (
         <>
@@ -66,6 +67,7 @@ function HeaderBottom() {
                 <Route path="/mobile-tablet-category/:subcat" element={<MobileTabletCategory />} />
                 <Route path="/laptop-computer-category/:subcat" element={<LaptopComputerCategory />} />
                 <Route path="/contact" element={<Contact />} />
+                <Route path="/search-product" element={<SearchProduct />} />
             </Routes>
         </>
     )

@@ -15,7 +15,7 @@ function Header() {
               <form action="">
                 <div className='position-relative search'>
                   <input type="text" className='form-control' placeholder='Search Item' />
-                  <i className="fa-solid fa-magnifying-glass position-absolute"></i>
+                 <Link to="/search-product"> <i className="fa-solid fa-magnifying-glass position-absolute"></i></Link>
                 </div>
               </form>
             </div>

@@ -5,7 +5,7 @@ import ContactInqueryForm from '../Components/ContactComponent/ContactInqueryFor
 function Contact() {
     return (
         <>
-            <ContactBanner/>
+            <ContactBanner bannerTitle="Contact Us"/>
             <ContactInqueryForm/>
         </>
     )
