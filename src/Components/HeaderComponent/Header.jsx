@@ -1,13 +1,30 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import "./header.scss"
 import logo from "/images/logo.png"
 import { Link } from 'react-router-dom'
 import { useSelector } from 'react-redux'
 function Header() {
-const {quantity}=useSelector((state)=>state.cart)
+  const { quantity } = useSelector((state) => state.cart)
+  const [isScrolled, setIsScrolled] = useState(false);
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 100) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+    // Add the scroll event listener
+    window.addEventListener('scroll', handleScroll);
+
+    // Clean up the event listener when the component unmounts
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [])
   return (
     <>
-      <header className='sticky-top'>
+      <header className={`${isScrolled ? 'header-fix' : ''}`}>
         <div className="container my-1">
           <div className="row align-items-center justify-content-between">
             <div className="col-lg-4 col-sm-6">
