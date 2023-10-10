@@ -36,7 +36,7 @@ const audioData=[
         id: 70,
         productImage: 'https://static-01.daraz.com.np/p/91aa3079ad70d27f5f41687952db9b14.jpg',
         productTitle: 'Hamtod Gaming Headset V5000 7.1 Channel Surround Sound Usb Led',
-        productPrice: '1,787',
+        productPrice:'1,787',
         productStock: 'In Stock',
         productCode: 'DS-KIS203T',
         productDescription: 'Ultra HD display with up to 3840 × 2160 resolution of input signal available. 20px ultra fine writing, and 2 mm diameter recognizable with the precision of 1 mm. Built-in Wi-Fi realizes miracasting without any cable connection. Built-in interactive whiteboard system allows annotating and sharing by QR code. Looping-out display available. Various audio and video interfaces for device access. Built-in network switch chip saves a network switch.',

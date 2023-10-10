@@ -18,6 +18,8 @@ import MobileTabletCategory from '../../Pages/MobileTabletCategory'
 import LaptopComputerCategory from '../../Pages/LaptopComputerCategory'
 import Contact from '../../Pages/Contact'
 import SearchProduct from '../../Pages/SearchProduct'
+import WishList from '../../Pages/WishList'
+import MyCart from '../../Pages/MyCart'
 function HeaderBottom() {
     return (
         <>
@@ -68,6 +70,8 @@ function HeaderBottom() {
                 <Route path="/laptop-computer-category/:subcat" element={<LaptopComputerCategory />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/search-product" element={<SearchProduct />} />
+                <Route path="/wishlist" element={<WishList />} />
+                <Route path="/cart-items" element={<MyCart />} />
             </Routes>
         </>
     )

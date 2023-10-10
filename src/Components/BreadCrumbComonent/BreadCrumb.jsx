@@ -5,7 +5,7 @@ function BreadCrumb(props) {
     return (
         <>
             <section>
-                <div className="container py-3 fs-5">
+                <div className="container py-3 fs-6">
                     <div aria-label="breadcrumb">
                         <ol className="breadcrumb">
                             <li className="breadcrumb-item"><Link to="/">{props.breadPrev}</Link></li>

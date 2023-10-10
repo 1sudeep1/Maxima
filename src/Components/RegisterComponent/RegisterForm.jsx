@@ -15,22 +15,22 @@ function RegisterForm() {
 
                             <form action="" >
                                 <div className='d-flex gap-2 my-2 '>
-                                    <input type="text" placeholder='Full Name' className='form-control form-text-size ' />
-                                    <input type="text" placeholder='User Name' className='form-control form-text-size' />
+                                    <input type="text" placeholder='Full Name' className='form-control form-text-size ' required/>
+                                    <input type="text" placeholder='User Name' className='form-control form-text-size' required />
                                 </div>
                                 <div className='d-flex gap-2 my-2'>
-                                    <input type="text" placeholder='Permanent Address' className='form-control form-text-size' />
-                                    <input type="text" placeholder='Current Address' className='form-control form-text-size' />
+                                    <input type="text" placeholder='Permanent Address' className='form-control form-text-size' required />
+                                    <input type="text" placeholder='Current Address' className='form-control form-text-size' required/>
                                 </div>
                                 <div className='d-flex gap-2 my-2'>
-                                    <input type="email" placeholder='a@gmail' className='form-control form-text-size' />
+                                    <input type="email" placeholder='a@gmail' className='form-control form-text-size' required />
                                     <input type="text" placeholder='98********' className='form-control form-text-size' />
                                 </div>
                                 <div className='d-flex gap-2 my-2'>
-                                    <input type="password" placeholder='password' className='form-control form-text-size' />
-                                    <input type="password" placeholder='confirm password' className='form-control form-text-size' />
+                                    <input type="password" placeholder='password' className='form-control form-text-size' required/>
+                                    <input type="password" placeholder='confirm password' className='form-control form-text-size' required/>
                                 </div>
-                                <button className='btn btn-primary p-0 mb-2 form-text-size' style={{ width: '100%', height: '35px' }}>Continue</button>
+                                <button className='btn btn-primary p-0 mb-2 form-text-size form-control'>Continue</button>
                             </form>
                             <p>Already have account? <Link to="/login">Login</Link></p>
                             <p>By creating an account, you agree to All In One's Conditions of Use and Privacy Notice.</p>

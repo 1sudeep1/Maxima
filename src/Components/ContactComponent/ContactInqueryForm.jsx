@@ -16,7 +16,7 @@ function ContactInqueryForm() {
                                     <input className='form-control w-75' name='' type="email" placeholder='Your Email' required />
                                 </div>
                                 <textarea className='form-control' name="" id="" cols="30" rows="5" placeholder='your messages...'></textarea>
-                                <button className='btn btn-primary w-25' type='submit'>Send</button>
+                                <button className='btn btn-primary w-25 btn-sm' type='submit'>Send</button>
                             </form>
                         </div>
                         <div className="col-lg-6">

@@ -12,7 +12,10 @@ import wearableData from '../../Data/WearableData';
 import storageData from '../../Data/StorageData';
 import audioData from '../../Data/AudioData';
 import mobileTabletData from '../../Data/MobileTabletData';
+import { useDispatch } from 'react-redux'
+import { addToCart } from '../../Redux/cartSlice'
 function SingleProductDetails() {
+    const dispatch = useDispatch()
     const { sid } = useParams();
     const [currentProduct, setCurrentProduct] = useState('');
     const [relatedProduct, setRelatedProduct] = useState([]);
@@ -135,7 +138,7 @@ function SingleProductDetails() {
                                 <form action="" className='d-flex gap-2 align-items-center'>
                                     <label htmlFor="">Quantity:</label>
                                     <input type="number" min='1' defaultValue={'1'} style={{ width: '50px' }} />
-                                    <Link to="" title='add to cart' className='cart-btn p-1' >Add to Cart</Link>
+                                    <Link to="" title='add to cart' className='cart-btn p-1' onClick={()=>dispatch(addToCart(currentProduct))}>Add to Cart</Link>
                                 </form>
                             </div>
                         </div>
