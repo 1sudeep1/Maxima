@@ -4,7 +4,9 @@ const initialState = {
     quantity: 0,
     cartItems: [],
     totalAmount: 0,
+    wishListItems: []
 };
+
 
 export const cartSlice = createSlice({
     name: 'cart',
@@ -35,14 +37,38 @@ export const cartSlice = createSlice({
             state.quantity -= payload.quantity;
             state.totalAmount -= productPrice * payload.quantity; // Use the parsed productPrice for calculations
         },
-        
+    },
+
+
+});
+
+export const wishlistSlice = createSlice({
+    name: 'wishlist',
+    initialState,
+    reducers: {
+        addToWishList: (state, { payload }) => {
+            const isItemExist = state.wishListItems.find((item) => item.id === payload.id);
+            if (!isItemExist) {
+                state.wishListItems = [...state.wishListItems, { ...payload, quantity: 1 }];
+            }
+        },
+
+        removeFromWishList: (state, { payload }) => {
+            // const productPrice = parseFloat(payload.productPrice.replace(/,/g, '')); // Remove commas and parse as a float
+
+            state.wishListItems = state.wishListItems.filter((item) => item.id !== payload.id);
+            // state.quantity -= payload.quantity;
+            // state.totalAmount -= productPrice * payload.quantity; // Use the parsed productPrice for calculations
+        },
     },
 });
 
 export const { addToCart, removeFromCart } = cartSlice.actions;
+export const { addToWishList, removeFromWishList } = wishlistSlice.actions;
 
 // Selectors to get the totalAmount with commas as a string
 export const selectTotalAmountFormatted = (state) =>
     state.cart.totalAmount.toLocaleString();
 
-export default cartSlice.reducer;
+    export const cartReducer = cartSlice.reducer;
+    export const wishlistReducer = wishlistSlice.reducer;

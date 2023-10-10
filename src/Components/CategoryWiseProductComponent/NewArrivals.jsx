@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import NewArrivalsData from '../../Data/NewArrivalsData'
 import { useDispatch } from 'react-redux'
 import { addToCart } from '../../Redux/cartSlice'
+import { addToWishList } from '../../Redux/cartSlice'
 function NewArrivals() {
     const dispatch = useDispatch()
     return (
@@ -23,7 +24,7 @@ function NewArrivals() {
                                         <div className='d-flex align-items-center gap-2 justify-content-center'>
                                             <Link to="" title='link'><i className="fa-solid fa-link"></i></Link>
                                             <Link to="" title='add to cart' onClick={()=>dispatch(addToCart(item))}><i className="fa-solid fa-cart-shopping"></i></Link>
-                                            <Link to="" title='wishlist'><i className="fa-solid fa-heart"></i></Link>
+                                            <span title='wishlist' onClick={()=>dispatch(addToWishList(item))}> <i className="fa-solid fa-heart"></i></span>
                                         </div>
                                     </div>
                                     <Link to={`/single-product/${item.id}`}><h6>{item.productTitle}</h6></Link>
