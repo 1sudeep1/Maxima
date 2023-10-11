@@ -1,7 +1,7 @@
 const NetworkProductData = [
     {
         id:37,
-        productImage:'https://static-01.daraz.com.np/p/5a66af7343eadc3916c6748a20b72921.jpg',
+        productImage:'/images/5a66af7343eadc3916c6748a20b72921.jpg',
         productTitle:'LB-Link W1210M Wifi Router 1200Mbps Dual-Band 5G Router',
         productPrice:'2,644',
         productStock:'In Stock',
@@ -12,7 +12,7 @@ const NetworkProductData = [
     },
     {
         id:38,
-        productImage:'https://static-01.daraz.com.np/p/5a66af7343eadc3916c6748a20b72921.jpg',
+        productImage:'/images/5a66af7343eadc3916c6748a20b72921.jpg',
         productTitle:'LB-Link W1210M Wifi Router 1200Mbps Dual-Band 5G Router',
         productPrice:'2,644',
         productStock:'In Stock',
@@ -23,7 +23,7 @@ const NetworkProductData = [
     },
     {
         id:39,
-        productImage:'https://static-01.daraz.com.np/p/5a66af7343eadc3916c6748a20b72921.jpg',
+        productImage:'/images/5a66af7343eadc3916c6748a20b72921.jpg',
         productTitle:'LB-Link W1210M Wifi Router 1200Mbps Dual-Band 5G Router',
         productPrice:'2,644',
         productStock:'In Stock',
@@ -34,7 +34,7 @@ const NetworkProductData = [
     },
     {
         id:40,
-        productImage:'https://static-01.daraz.com.np/p/5a66af7343eadc3916c6748a20b72921.jpg',
+        productImage:'/images/5a66af7343eadc3916c6748a20b72921.jpg',
         productTitle:'LB-Link W1210M Wifi Router 1200Mbps Dual-Band 5G Router',
         productPrice:'2,644',
         productStock:'In Stock',
@@ -45,7 +45,7 @@ const NetworkProductData = [
     },
     {
         id:41,
-        productImage:'https://static-01.daraz.com.np/p/d1abefdd11a0c65b284adae959103d86.png',
+        productImage:'/images/d1abefdd11a0c65b284adae959103d86.png',
         productTitle:'20m Ethernet Cable Male to Male Link Network LAN Cable',
         productPrice:'310',
         productStock:'In Stock',
@@ -56,7 +56,7 @@ const NetworkProductData = [
     },
     {
         id:42,
-        productImage:'https://static-01.daraz.com.np/p/d1abefdd11a0c65b284adae959103d86.png',
+        productImage:'/images/d1abefdd11a0c65b284adae959103d86.png',
         productTitle:'20m Ethernet Cable Male to Male Link Network LAN Cable',
         productPrice:'310',
         productStock:'In Stock',
@@ -67,7 +67,7 @@ const NetworkProductData = [
     },
     {
         id:43,
-        productImage:'https://static-01.daraz.com.np/p/d1abefdd11a0c65b284adae959103d86.png',
+        productImage:'/images/d1abefdd11a0c65b284adae959103d86.png',
         productTitle:'20m Ethernet Cable Male to Male Link Network LAN Cable',
         productPrice:'310',
         productStock:'In Stock',
@@ -78,7 +78,7 @@ const NetworkProductData = [
     },
     {
         id:44,
-        productImage:'https://static-01.daraz.com.np/p/8d583cc9f08bd126f49a51a147086bb3.jpg',
+        productImage:'/images/8d583cc9f08bd126f49a51a147086bb3.jpg',
         productTitle:'3 Port 4K HDMI Switch 3 In 1 Out With High Speed Switch Splitter',
         productPrice:'310',
         productStock:'In Stock',
@@ -89,7 +89,7 @@ const NetworkProductData = [
     },
     {
         id:45,
-        productImage:'https://static-01.daraz.com.np/p/8d583cc9f08bd126f49a51a147086bb3.jpg',
+        productImage:'/images/8d583cc9f08bd126f49a51a147086bb3.jpg',
         productTitle:'3 Port 4K HDMI Switch 3 In 1 Out With High Speed Switch Splitter',
         productPrice:'310',
         productStock:'In Stock',
@@ -100,7 +100,7 @@ const NetworkProductData = [
     },
     {
         id:46,
-        productImage:'https://static-01.daraz.com.np/p/8d583cc9f08bd126f49a51a147086bb3.jpg',
+        productImage:'/images/8d583cc9f08bd126f49a51a147086bb3.jpg',
         productTitle:'3 Port 4K HDMI Switch 3 In 1 Out With High Speed Switch Splitter',
         productPrice:'310',
         productStock:'In Stock',
@@ -111,7 +111,7 @@ const NetworkProductData = [
     },
     {
         id:47,
-        productImage:'https://static-01.daraz.com.np/p/8d583cc9f08bd126f49a51a147086bb3.jpg',
+        productImage:'/images/8d583cc9f08bd126f49a51a147086bb3.jpg',
         productTitle:'3 Port 4K HDMI Switch 3 In 1 Out With High Speed Switch Splitter',
         productPrice:'310',
         productStock:'In Stock',
@@ -122,7 +122,7 @@ const NetworkProductData = [
     },
     {
         id:48,
-        productImage:'https://static-01.daraz.com.np/p/8d583cc9f08bd126f49a51a147086bb3.jpg',
+        productImage:'/images/8d583cc9f08bd126f49a51a147086bb3.jpg',
         productTitle:'3 Port 4K HDMI Switch 3 In 1 Out With High Speed Switch Splitter',
         productPrice:'310',
         productStock:'In Stock',

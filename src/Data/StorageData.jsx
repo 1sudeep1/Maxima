@@ -1,7 +1,7 @@
 const storageData=[
     {
         id: 58,
-        productImage: 'https://static-01.daraz.com.np/p/84be340461e56665055e9830197aeff2.jpg',
+        productImage: '/images/84be340461e56665055e9830197aeff2.jpg',
         productTitle: '2.5" Hard Disk Case SATA USB 3.0 HDD External Hard Drive Enclosure',
         productPrice: '3,499',
         productStock: 'In Stock',
@@ -12,7 +12,7 @@ const storageData=[
     },
     {
         id: 59,
-        productImage: 'https://static-01.daraz.com.np/p/84be340461e56665055e9830197aeff2.jpg',
+        productImage: '/images/84be340461e56665055e9830197aeff2.jpg',
         productTitle: '2.5" Hard Disk Case SATA USB 3.0 HDD External Hard Drive Enclosure',
         productPrice: '3,499',
         productStock: 'In Stock',
@@ -23,7 +23,7 @@ const storageData=[
     },
     {
         id: 60,
-        productImage: 'https://static-01.daraz.com.np/p/84be340461e56665055e9830197aeff2.jpg',
+        productImage: '/images/84be340461e56665055e9830197aeff2.jpg',
         productTitle: '2.5" Hard Disk Case SATA USB 3.0 HDD External Hard Drive Enclosure',
         productPrice: '3,499',
         productStock: 'In Stock',
@@ -34,7 +34,7 @@ const storageData=[
     },
     {
         id: 61,
-        productImage: 'https://static-01.daraz.com.np/p/fbca59d2d374913e3888399a935be525.jpg',
+        productImage: '/images/fbca59d2d374913e3888399a935be525.jpg',
         productTitle: 'Kingston A400 Internal SSD 2.5 256GB SATA 3 - SA400S37/256G',
         productPrice: '3,499',
         productStock: 'In Stock',
@@ -45,7 +45,7 @@ const storageData=[
     },
     {
         id: 62,
-        productImage: 'https://static-01.daraz.com.np/p/fbca59d2d374913e3888399a935be525.jpg',
+        productImage: '/images/fbca59d2d374913e3888399a935be525.jpg',
         productTitle: 'Kingston A400 Internal SSD 2.5 256GB SATA 3 - SA400S37/256G',
         productPrice: '2,194',
         productStock: 'In Stock',
@@ -56,7 +56,7 @@ const storageData=[
     },
     {
         id: 63,
-        productImage: 'https://static-01.daraz.com.np/p/fbca59d2d374913e3888399a935be525.jpg',
+        productImage: '/images/fbca59d2d374913e3888399a935be525.jpg',
         productTitle: 'Kingston A400 Internal SSD 2.5 256GB SATA 3 - SA400S37/256G',
         productPrice: '2,194',
         productStock: 'In Stock',
@@ -67,7 +67,7 @@ const storageData=[
     },
     {
         id: 64,
-        productImage: 'https://static-01.daraz.com.np/p/3c955d9d9f417b09638847495a46629e.jpg',
+        productImage: '/images/3c955d9d9f417b09638847495a46629e.jpg',
         productTitle: '8 GB pendrive usb 2.0 8 GB pendrive usb 2.0',
         productPrice: '180',
         productStock: 'In Stock',
@@ -78,7 +78,7 @@ const storageData=[
     },
     {
         id: 65,
-        productImage: 'https://static-01.daraz.com.np/p/3c955d9d9f417b09638847495a46629e.jpg',
+        productImage: '/images/3c955d9d9f417b09638847495a46629e.jpg',
         productTitle: '8 GB pendrive usb 2.0 8 GB pendrive usb 2.0',
         productPrice: '180',
         productStock: 'In Stock',
@@ -89,7 +89,7 @@ const storageData=[
     },
     {
         id: 66,
-        productImage: 'https://static-01.daraz.com.np/p/3c955d9d9f417b09638847495a46629e.jpg',
+        productImage: '/images/3c955d9d9f417b09638847495a46629e.jpg',
         productTitle: '8 GB pendrive usb 2.0 8 GB pendrive usb 2.0',
         productPrice: '180',
         productStock: 'In Stock',

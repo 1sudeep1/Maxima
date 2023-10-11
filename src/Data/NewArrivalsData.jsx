@@ -1,7 +1,7 @@
 const NewArrivalsData = [
     {
         id: 1,
-        productImage: 'http://maxima.com.np/media/uploads/cat6A_WyJqCeZ.jpg',
+        productImage: '/images/cat6A_WyJqCeZ.jpg',
         productTitle: 'Kuwes 24port Patch Panel',
         productPrice: '99.99',
         productStock: 'In Stock',
@@ -12,7 +12,7 @@ const NewArrivalsData = [
     },
     {
         id: 2,
-        productImage: 'http://maxima.com.np/media/uploads/crimping-tool2.jpg',
+        productImage: '/images/crimping-tool.jpg',
         productTitle: 'Kuwes Crimping Tool',
         productPrice: '2,100',
         productStock: 'In Stock',
@@ -23,7 +23,7 @@ const NewArrivalsData = [
     },
     {
         id: 3,
-        productImage: 'http://maxima.com.np/media/uploads/punch-down2.jpg',
+        productImage: '/images/punch-down.jpg',
         productTitle: 'Kuwes Punch Down Tool',
         productPrice: '2,400',
         productStock: 'In Stock',
@@ -34,7 +34,7 @@ const NewArrivalsData = [
     },
     {
         id: 4,
-        productImage: 'http://maxima.com.np/media/uploads/E7C432_pXFSCTW.jpg',
+        productImage: '/images/E7C432_pXFSCTW.jpg',
         productTitle: '7-inch 4 MP 32X Powered by DarkFighter IR Network Speed Dome',
         productPrice: '0',
         productStock: 'In Stock',
@@ -45,7 +45,7 @@ const NewArrivalsData = [
     },
     {
         id: 5,
-        productImage: 'http://maxima.com.np/media/uploads/cat6A_WyJqCeZ.jpg',
+        productImage: '/images/cat6A_WyJqCeZ.jpg',
         productTitle: 'Kuwes 24port Patch Panel',
         productPrice: '0',
         productStock: 'In Stock',
@@ -56,7 +56,7 @@ const NewArrivalsData = [
     },
     {
         id: 6,
-        productImage: 'http://maxima.com.np/media/uploads/24port-patchpanel.jpg',
+        productImage: '/images/24port-patchpanel.jpg',
         productTitle: 'Kuwes 24port Patch Panel',
         productPrice: '0',
         productStock: 'In Stock',
@@ -67,7 +67,7 @@ const NewArrivalsData = [
     },
     {
         id: 7,
-        productImage: 'http://maxima.com.np/media/uploads/crimping-tool.jpg',
+        productImage: '/images/crimping-tool.jpg',
         productTitle: 'Kuwes Crimping Tool',
         productPrice: '2,100',
         productStock: 'In Stock',
@@ -78,8 +78,8 @@ const NewArrivalsData = [
     },
     {
         id: 8,
-        productImage: 'http://maxima.com.np/media/uploads/32_yAX3JpV.jpg',
-        productTitle: 'AX PRO with big battery size',
+        productImage: '/images/32_yUevtCX.jpg',
+        productTitle: 'Wireless External Sounder',
         productPrice: '32,420',
         productStock: 'In Stock',
         productCode: 'DS-D5B65RB/D',
@@ -89,8 +89,8 @@ const NewArrivalsData = [
     },
     {
         id: 9,
-        productImage: 'http://maxima.com.np/media/uploads/33_4lS16kL.jpg',
-        productTitle: '42.5 inch FHD Monitor',
+        productImage: '/images/32_qb1AbXq.jpg',
+        productTitle: '55-inch 4K Monitor',
         productPrice: '2,400',
         productStock: 'In Stock',
         productCode: 'DS-D5B65RB/D',
@@ -100,8 +100,8 @@ const NewArrivalsData = [
     },
     {
         id: 10,
-        productImage: 'http://maxima.com.np/media/uploads/32_u9oXT5H.jpg',
-        productTitle: '65.5 inch 4K Interactive Flat Panel',
+        productImage: '/images/32_rcblqNq.jpg',
+        productTitle: 'Villa Analog Kit (DS-KIS203T)',
         productPrice: '0',
         productStock: 'In Stock',
         productCode: 'DS-D5B65RB/D',
@@ -111,8 +111,8 @@ const NewArrivalsData = [
     },
     {
         id: 11,
-        productImage: 'http://maxima.com.np/media/uploads/32_mPDaMdD.jpg',
-        productTitle: 'KH6 Series IP-Based Indoor Station',
+        productImage: '/images/32_Ed8ILqA.jpg',
+        productTitle: 'Wireless Temperature Detector',
         productPrice: '0',
         productStock: 'In Stock',
         productCode: 'DS-D5B65RB/D',
@@ -122,8 +122,8 @@ const NewArrivalsData = [
     },
     {
         id: 12,
-        productImage: 'http://maxima.com.np/media/uploads/32_0J8VZCg.jpg',
-        productTitle: 'Villa Analog Kit (DS-KIS203T)',
+        productImage: '/images/cabke-tracer.jpg',
+        productTitle: 'Kuwes KS-470 Cable Tracker',
         productPrice: '32,420',
         productStock: 'In Stock',
         productCode: 'DS-D5B65RB/D',

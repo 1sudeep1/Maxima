@@ -1,7 +1,7 @@
 const CamerasData = [
     {
         id:25,
-        productImage:'https://static-01.daraz.com.np/p/ebed5ecd4f0bb71503e545f5246a626d.jpg',
+        productImage:'/images/ebed5ecd4f0bb71503e545f5246a626d.jpg',
         productTitle:'HD Webcam Web Camera With MIC For Computer For PC ',
         productPrice:'1,199',
         productStock:'In Stock',
@@ -12,7 +12,7 @@ const CamerasData = [
     },
     {
         id:26,
-        productImage:'https://static-01.daraz.com.np/p/ebed5ecd4f0bb71503e545f5246a626d.jpg',
+        productImage:'/images/ebed5ecd4f0bb71503e545f5246a626d.jpg',
         productTitle:'HD Webcam Web Camera With MIC For Computer For PC ',
         productPrice:'1,199',
         productStock:'In Stock',
@@ -23,7 +23,7 @@ const CamerasData = [
     },
     {
         id:27,
-        productImage:'https://static-01.daraz.com.np/p/ebed5ecd4f0bb71503e545f5246a626d.jpg',
+        productImage:'/images/ebed5ecd4f0bb71503e545f5246a626d.jpg',
         productTitle:'HD Webcam Web Camera With MIC For Computer For PC ',
         productPrice:'1,199',
         productStock:'In Stock',
@@ -34,7 +34,7 @@ const CamerasData = [
     },
     {
         id:28,
-        productImage:'https://static-01.daraz.com.np/p/f93c09aa175fdde8e4742fd98490447d.jpg',
+        productImage:'/images/f93c09aa175fdde8e4742fd98490447d.jpg',
         productTitle:'IMILAB C20 Pro Home Security Camera 2K IP Security Camera',
         productPrice:'3,999',
         productStock:'In Stock',
@@ -45,7 +45,7 @@ const CamerasData = [
     },
     {
         id:29,
-        productImage:'https://static-01.daraz.com.np/p/f93c09aa175fdde8e4742fd98490447d.jpg',
+        productImage:'/images/f93c09aa175fdde8e4742fd98490447d.jpg',
         productTitle:'IMILAB C20 Pro Home Security Camera 2K IP Security Camera',
         productPrice:'3,999',
         productStock:'In Stock',
@@ -56,7 +56,7 @@ const CamerasData = [
     },
     {
         id:30,
-        productImage:'https://static-01.daraz.com.np/p/f93c09aa175fdde8e4742fd98490447d.jpg',
+        productImage:'/images/f93c09aa175fdde8e4742fd98490447d.jpg',
         productTitle:'IMILAB C20 Pro Home Security Camera 2K IP Security Camera',
         productPrice:'3,999',
         productStock:'In Stock',
@@ -67,7 +67,7 @@ const CamerasData = [
     },
     {
         id:31,
-        productImage:'https://static-01.daraz.com.np/p/9ce90c3b2e74baeae961dd753df85176.jpg',
+        productImage:'/images/9ce90c3b2e74baeae961dd753df85176.jpg',
         productTitle:'Mini Drones Hd 4k 1080p Wifi Fpv Camera Drones Mini Drones',
         productPrice:'4,250',
         productStock:'In Stock',
@@ -78,7 +78,7 @@ const CamerasData = [
     },
     {
         id:32,
-        productImage:'https://static-01.daraz.com.np/p/9ce90c3b2e74baeae961dd753df85176.jpg',
+        productImage:'/images/9ce90c3b2e74baeae961dd753df85176.jpg',
         productTitle:'Mini Drones Hd 4k 1080p Wifi Fpv Camera Drones Mini Drones',
         productPrice:'4,250',
         productStock:'In Stock',
@@ -89,7 +89,7 @@ const CamerasData = [
     },
     {
         id:33,
-        productImage:'https://static-01.daraz.com.np/p/9ce90c3b2e74baeae961dd753df85176.jpg',
+        productImage:'/images/9ce90c3b2e74baeae961dd753df85176.jpg',
         productTitle:'Mini Drones Hd 4k 1080p Wifi Fpv Camera Drones Mini Drones',
         productPrice:'4,250',
         productStock:'In Stock',
@@ -100,7 +100,7 @@ const CamerasData = [
     },
     {
         id:34,
-        productImage:'https://static-01.daraz.com.np/p/b8d0f16c41a0bb22129d7bc4efd0af0c.jpg',
+        productImage:'/images/b8d0f16c41a0bb22129d7bc4efd0af0c.jpg',
         productTitle:'Canon EOS 2000D 24.2 MP DSLR Camera With EF-S18-55',
         productPrice:'63,499',
         productStock:'In Stock',
@@ -111,7 +111,7 @@ const CamerasData = [
     },
     {
         id:35,
-        productImage:'https://static-01.daraz.com.np/p/b8d0f16c41a0bb22129d7bc4efd0af0c.jpg',
+        productImage:'/images/b8d0f16c41a0bb22129d7bc4efd0af0c.jpg',
         productTitle:'Canon EOS 2000D 24.2 MP DSLR Camera With EF-S18-55',
         productPrice:'63,499',
         productStock:'In Stock',
@@ -122,7 +122,7 @@ const CamerasData = [
     },
     {
         id:36,
-        productImage:'https://static-01.daraz.com.np/p/57b177482d91a48a589df738c4bb5d50.jpg',
+        productImage:'/images/57b177482d91a48a589df738c4bb5d50.jpg',
         productTitle:'3120 Tripod Stand Full Black 1020 Mm Long /Mobile/ Camera',
         productPrice:'425',
         productStock:'In Stock',

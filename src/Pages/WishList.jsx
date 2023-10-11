@@ -2,6 +2,7 @@ import React from 'react'
 import BreadCrumb from '../Components/BreadCrumbComonent/BreadCrumb'
 import { useDispatch, useSelector } from 'react-redux'
 import { addToCart, removeFromWishList } from '../Redux/cartSlice'
+import { Link } from 'react-router-dom';
 function WishList() {
     const { wishListItems } = useSelector((state) => state.wishlist);
     const dispatch = useDispatch()
@@ -31,7 +32,7 @@ function WishList() {
                                         <tr key={item.id}>
                                             <td>
                                                 <div className="media">
-                                                    <a className="thumbnail pull-left" href="#"> <img className="media-object" src={item.productImage} style={{ width: 72, height: 72 }} /> </a>
+                                                <Link to={`/single-product/${item.id}`} className="thumbnail pull-left"> <img className="media-object" src={item.productImage} style={{ width: 100, height: 100 }} /> </Link>
                                                     <div className="media-body">
                                                         <h4 className="media-heading"><a href="#">{item.productTitle}</a></h4>
                                                         <span>Status: </span><span className="text-success"><strong>{item.productStock}</strong></span>

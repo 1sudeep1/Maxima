@@ -1,7 +1,7 @@
 const audioData=[
     {
         id: 67,
-        productImage: 'https://static-01.daraz.com.np/p/a7be2ae9ccc462fb6b8152d2c2e262b0.jpg',
+        productImage: '/images/a7be2ae9ccc462fb6b8152d2c2e262b0.jpg',
         productTitle: 'Hell Dragon Series Gaming RGB Headphone',
         productPrice: '790',
         productStock: 'In Stock',
@@ -12,7 +12,7 @@ const audioData=[
     },
     {
         id: 68,
-        productImage: 'https://static-01.daraz.com.np/p/a7be2ae9ccc462fb6b8152d2c2e262b0.jpg',
+        productImage: '/images/a7be2ae9ccc462fb6b8152d2c2e262b0.jpg',
         productTitle: 'Hell Dragon Series Gaming RGB Headphone',
         productPrice: '790',
         productStock: 'In Stock',
@@ -23,7 +23,7 @@ const audioData=[
     },
     {
         id: 69,
-        productImage: 'https://static-01.daraz.com.np/p/a7be2ae9ccc462fb6b8152d2c2e262b0.jpg',
+        productImage: '/images/a7be2ae9ccc462fb6b8152d2c2e262b0.jpg',
         productTitle: 'Hell Dragon Series Gaming RGB Headphone',
         productPrice: '790',
         productStock: 'In Stock',
@@ -34,7 +34,7 @@ const audioData=[
     },
     {
         id: 70,
-        productImage: 'https://static-01.daraz.com.np/p/91aa3079ad70d27f5f41687952db9b14.jpg',
+        productImage: '/images/91aa3079ad70d27f5f41687952db9b14.jpg',
         productTitle: 'Hamtod Gaming Headset V5000 7.1 Channel Surround Sound Usb Led',
         productPrice:'1,787',
         productStock: 'In Stock',
@@ -45,7 +45,7 @@ const audioData=[
     },
     {
         id: 71,
-        productImage: 'https://static-01.daraz.com.np/p/91aa3079ad70d27f5f41687952db9b14.jpg',
+        productImage: '/images/91aa3079ad70d27f5f41687952db9b14.jpg',
         productTitle: 'Hamtod Gaming Headset V5000 7.1 Channel Surround Sound Usb Led',
         productPrice: '1,787',
         productStock: 'In Stock',
@@ -56,7 +56,7 @@ const audioData=[
     },
     {
         id: 72,
-        productImage: 'https://static-01.daraz.com.np/p/91aa3079ad70d27f5f41687952db9b14.jpg',
+        productImage: '/images/91aa3079ad70d27f5f41687952db9b14.jpg',
         productTitle: 'Hamtod Gaming Headset V5000 7.1 Channel Surround Sound Usb Led',
         productPrice: '1,787',
         productStock: 'In Stock',
@@ -67,7 +67,7 @@ const audioData=[
     },
     {
         id: 73,
-        productImage: 'https://static-01.daraz.com.np/p/f1f4130054adfb0b35ffb26a342b3264.jpg',
+        productImage: '/images/f1f4130054adfb0b35ffb26a342b3264.jpg',
         productTitle: 'Asta WOLF Banger | Portable Bluetooth Speaker | Dual Pairing TW',
         productPrice: '1,830',
         productStock: 'In Stock',
@@ -78,7 +78,7 @@ const audioData=[
     },
     {
         id: 74,
-        productImage: 'https://static-01.daraz.com.np/p/f1f4130054adfb0b35ffb26a342b3264.jpg',
+        productImage: '/images/f1f4130054adfb0b35ffb26a342b3264.jpg',
         productTitle: 'Asta WOLF Banger | Portable Bluetooth Speaker | Dual Pairing TW',
         productPrice: '1,830',
         productStock: 'In Stock',
@@ -89,7 +89,7 @@ const audioData=[
     },
     {
         id: 75,
-        productImage: 'https://static-01.daraz.com.np/p/00ce1640d590610a4795922868961b88.jpg',
+        productImage: '/images/00ce1640d590610a4795922868961b88.jpg',
         productTitle: 'Ultima Atom 192 Bluetooth Truly Wireless Earbuds With Mic,',
         productPrice: '2,299',
         productStock: 'In Stock',
@@ -100,7 +100,7 @@ const audioData=[
     },
     {
         id: 76,
-        productImage: 'https://static-01.daraz.com.np/p/00ce1640d590610a4795922868961b88.jpg',
+        productImage: '/images/00ce1640d590610a4795922868961b88.jpg',
         productTitle: 'Ultima Atom 192 Bluetooth Truly Wireless Earbuds With Mic,',
         productPrice: '2,299',
         productStock: 'In Stock',
@@ -111,7 +111,7 @@ const audioData=[
     },
     {
         id: 77,
-        productImage: 'https://static-01.daraz.com.np/p/00ce1640d590610a4795922868961b88.jpg',
+        productImage: '/images/00ce1640d590610a4795922868961b88.jpg',
         productTitle: 'Ultima Atom 192 Bluetooth Truly Wireless Earbuds With Mic,',
         productPrice: '2,299',
         productStock: 'In Stock',

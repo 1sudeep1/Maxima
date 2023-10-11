@@ -1,7 +1,7 @@
 const wearableData = [
     {
         id: 49,
-        productImage: 'https://static-01.daraz.com.np/p/8dd57c6ad2a10adc8fd96e5f22961ecf.jpg',
+        productImage: '/images/8dd57c6ad2a10adc8fd96e5f22961ecf.jpg',
         productTitle: 'X-AGE BUZZ Smart Watch for Men and Women (XSW02)',
         productPrice: '4,800',
         productStock: 'In Stock',
@@ -12,7 +12,7 @@ const wearableData = [
     },
     {
         id: 50,
-        productImage: 'https://static-01.daraz.com.np/p/8dd57c6ad2a10adc8fd96e5f22961ecf.jpg',
+        productImage: '/images/8dd57c6ad2a10adc8fd96e5f22961ecf.jpg',
         productTitle: 'X-AGE BUZZ Smart Watch for Men and Women (XSW02)',
         productPrice: '4,800',
         productStock: 'In Stock',
@@ -23,7 +23,7 @@ const wearableData = [
     },
     {
         id: 51,
-        productImage: 'https://static-01.daraz.com.np/p/8dd57c6ad2a10adc8fd96e5f22961ecf.jpg',
+        productImage: '/images/8dd57c6ad2a10adc8fd96e5f22961ecf.jpg',
         productTitle: 'X-AGE BUZZ Smart Watch for Men and Women (XSW02)',
         productPrice: '4,800',
         productStock: 'In Stock',
@@ -34,7 +34,7 @@ const wearableData = [
     },
     {
         id: 52,
-        productImage: 'https://np-live-21.slatic.net/kf/Sf58bbd27470d4532b5b84fa137d56ba88.jpg',
+        productImage: '/images/Sf58bbd27470d4532b5b84fa137d56ba88.jpg',
         productTitle: 'Harvey VR BOX 2.0 Virtual Reality 3D Glasses for 4.5-6.0 inch Smartphone',
         productPrice: '395',
         productStock: 'In Stock',
@@ -45,7 +45,7 @@ const wearableData = [
     },
     {
         id: 53,
-        productImage: 'https://np-live-21.slatic.net/kf/Sf58bbd27470d4532b5b84fa137d56ba88.jpg',
+        productImage: '/images/Sf58bbd27470d4532b5b84fa137d56ba88.jpg',
         productTitle: 'Harvey VR BOX 2.0 Virtual Reality 3D Glasses for 4.5-6.0 inch Smartphone',
         productPrice: '395',
         productStock: 'In Stock',
@@ -56,7 +56,7 @@ const wearableData = [
     },
     {
         id: 54,
-        productImage: 'https://np-live-21.slatic.net/kf/Sf58bbd27470d4532b5b84fa137d56ba88.jpg',
+        productImage: '/images/Sf58bbd27470d4532b5b84fa137d56ba88.jpg',
         productTitle: 'Harvey VR BOX 2.0 Virtual Reality 3D Glasses for 4.5-6.0 inch Smartphone',
         productPrice: '395',
         productStock: 'In Stock',
@@ -67,7 +67,7 @@ const wearableData = [
     },
     {
         id: 55,
-        productImage: 'https://static-01.daraz.com.np/p/3a41302d468ea5ba3661511d60d9632d.png',
+        productImage: '/images/3a41302d468ea5ba3661511d60d9632d.png',
         productTitle: 'boAt WAVE BEAT | Best Fitness Tracker Smartwatch | 1.69',
         productPrice: '3,499',
         productStock: 'In Stock',
@@ -78,7 +78,7 @@ const wearableData = [
     },
     {
         id: 56,
-        productImage: 'https://static-01.daraz.com.np/p/3a41302d468ea5ba3661511d60d9632d.png',
+        productImage: '/images/3a41302d468ea5ba3661511d60d9632d.png',
         productTitle: 'boAt WAVE BEAT | Best Fitness Tracker Smartwatch | 1.69',
         productPrice: '3,499',
         productStock: 'In Stock',
@@ -89,7 +89,7 @@ const wearableData = [
     },
     {
         id: 57,
-        productImage: 'https://static-01.daraz.com.np/p/3a41302d468ea5ba3661511d60d9632d.png',
+        productImage: '/images/3a41302d468ea5ba3661511d60d9632d.png',
         productTitle: 'boAt WAVE BEAT | Best Fitness Tracker Smartwatch | 1.69',
         productPrice: '3,499',
         productStock: 'In Stock',

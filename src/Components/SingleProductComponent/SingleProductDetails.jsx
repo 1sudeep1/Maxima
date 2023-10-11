@@ -14,6 +14,7 @@ import audioData from '../../Data/AudioData';
 import mobileTabletData from '../../Data/MobileTabletData';
 import { useDispatch } from 'react-redux'
 import { addToCart } from '../../Redux/cartSlice'
+import { addToWishList } from '../../Redux/cartSlice'
 function SingleProductDetails() {
     const dispatch = useDispatch()
     const { sid } = useParams();
@@ -39,13 +40,13 @@ function SingleProductDetails() {
             catData = CamerasData;
         } else if (NetworkProductData.find((item) => item.id === parseInt(sid))) {
             catData = NetworkProductData;
-        }else if (wearableData.find((item) => item.id === parseInt(sid))) {
+        } else if (wearableData.find((item) => item.id === parseInt(sid))) {
             catData = wearableData;
-        }else if (storageData.find((item) => item.id === parseInt(sid))) {
+        } else if (storageData.find((item) => item.id === parseInt(sid))) {
             catData = storageData
-        }else if (audioData.find((item) => item.id === parseInt(sid))) {
+        } else if (audioData.find((item) => item.id === parseInt(sid))) {
             catData = audioData
-        }else if (mobileTabletData.find((item) => item.id === parseInt(sid))) {
+        } else if (mobileTabletData.find((item) => item.id === parseInt(sid))) {
             catData = mobileTabletData
         }
         const related = findRelatedProduct(catData)
@@ -107,7 +108,7 @@ function SingleProductDetails() {
                 loop: true
             },
             1000: {
-                items: 6,
+                items: 8,
                 nav: true,
                 loop: true
             }
@@ -138,7 +139,8 @@ function SingleProductDetails() {
                                 <form action="" className='d-flex gap-2 align-items-center'>
                                     <label htmlFor="">Quantity:</label>
                                     <input type="number" min='1' defaultValue={'1'} style={{ width: '50px' }} />
-                                    <Link to="" title='add to cart' className='cart-btn p-1' onClick={()=>dispatch(addToCart(currentProduct))}>Add to Cart</Link>
+                                    <Link to="" title='add to wishlist' className='cart-btn p-1' onClick={() => dispatch(addToWishList(currentProduct))}> Add to Wishlist</Link>
+                                    <Link to="" title='add to cart' className='cart-btn p-1' onClick={() => dispatch(addToCart(currentProduct))}>Add to Cart</Link>
                                 </form>
                             </div>
                         </div>
@@ -202,27 +204,30 @@ function SingleProductDetails() {
                                 {relatedProduct.length > 0 && (
                                     <OwlCarousel className='owl-theme px-2' {...slider}>
                                         {relatedProduct.map((item) => (
-                                            <div className='d-flex flex-column text-center align-items-center product-card position-relative bg-white' key={item.id}>
-                                                <div className='position-relative product-img-div'>
-                                                    <Link to={`/single-product/${item.id}`} className='d-flex justify-content-center'><img className='img-fluid thumbnails product-img' src={item.productImage} alt="" /></Link>
-                                                    <Link to=""><button className='cart-btn position-absolute fw-bold'>Add to Cart</button></Link>
+                                            <div className='d-flex flex-column text-center align-items-center product-card position-relative bg-white'>
+                                                <div className='product-img-div '>
+                                                    <Link to={`/single-product/${item.id}`}><img className='img-fluid thumbnails px-4' src={item.productImage} alt="" /></Link>
+                                                    <Link to={`/single-product/${item.id}`}><h6>{item.productTitle}</h6></Link>
                                                 </div>
                                                 <div className="leftservice-icon position-absolute">
                                                     <div className='d-flex align-items-center gap-2 justify-content-center'>
                                                         <Link to="" title='link'><i className="fa-solid fa-link"></i></Link>
-                                                        <Link to="" title='add to cart'><i className="fa-solid fa-cart-shopping"></i></Link>
-                                                        <Link to="" title='wishlist'><i className="fa-solid fa-heart"></i></Link>
+                                                        <Link to="" title='add to cart' onClick={() => dispatch(addToCart(item))}><i className="fa-solid fa-cart-shopping"></i></Link>
+                                                        <span title='wishlist' onClick={() => dispatch(addToWishList(item))}> <i className="fa-solid fa-heart"></i></span>
                                                     </div>
                                                 </div>
-                                                <Link to={`/single-product/${item.id}`}><h6>{item.productTitle}</h6></Link>
-                                                <Link to={`/single-product/${item.id}`}> <ul className='d-flex gap-1 justify-content-start p-0 text-secondary'>
-                                                    <li><i className="fa-regular fa-star"></i></li>
-                                                    <li><i className="fa-regular fa-star"></i></li>
-                                                    <li><i className="fa-regular fa-star"></i></li>
-                                                    <li><i className="fa-regular fa-star"></i></li>
-                                                    <li><i className="fa-regular fa-star"></i></li>
-                                                </ul></Link>
-                                                <Link to={`/single-product/${item.id}`}><p className='text-danger'>Price Rs {item.productPrice}</p></Link>
+                                                <div className='position-absolute product-content d-flex flex-column'>
+                                                    <Link to={`/single-product/${item.id}`}> <ul className='d-flex gap-1 justify-content-start p-0 text-secondary'>
+                                                        <li><i className="fa-regular fa-star"></i></li>
+                                                        <li><i className="fa-regular fa-star"></i></li>
+                                                        <li><i className="fa-regular fa-star"></i></li>
+                                                        <li><i className="fa-regular fa-star"></i></li>
+                                                        <li><i className="fa-regular fa-star"></i></li>
+                                                    </ul></Link>
+                                                    <Link to={`/single-product/${item.id}`}><p className='text-danger'>Price Rs {item.productPrice}</p></Link>
+                                                    <button className='cart-btn  fw-bold' title='add to cart' onClick={() => dispatch(addToCart(item))}>Add to Cart</button>
+                                                    
+                                                </div>
                                             </div>
                                         ))}
                                     </OwlCarousel>

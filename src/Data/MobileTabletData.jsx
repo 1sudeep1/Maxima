@@ -1,7 +1,7 @@
 const mobileTabletData = [
     {
         id: 78,
-        productImage: 'https://static-01.daraz.com.np/p/d3c9385a82728fdada546066ea14df3b.jpg',
+        productImage: '/images/d3c9385a82728fdada546066ea14df3b.jpg',
         productTitle: 'Apple iPhone 13 Apple A15 Bionic Chip 128GB - iSure',
         productPrice: '1,19,990',
         productStock: 'In Stock',
@@ -12,7 +12,7 @@ const mobileTabletData = [
     },
     {
         id: 79,
-        productImage: 'https://static-01.daraz.com.np/p/d3c9385a82728fdada546066ea14df3b.jpg',
+        productImage: '/images/d3c9385a82728fdada546066ea14df3b.jpg',
         productTitle: 'Apple iPhone 13 Apple A15 Bionic Chip 128GB - iSure',
         productPrice: '1,19,990',
         productStock: 'In Stock',
@@ -23,7 +23,7 @@ const mobileTabletData = [
     },
     {
         id: 80,
-        productImage: 'https://static-01.daraz.com.np/p/d3c9385a82728fdada546066ea14df3b.jpg',
+        productImage: '/images/d3c9385a82728fdada546066ea14df3b.jpg',
         productTitle: 'Apple iPhone 13 Apple A15 Bionic Chip 128GB - iSure',
         productPrice: '1,19,990',
         productStock: 'In Stock',
@@ -34,7 +34,7 @@ const mobileTabletData = [
     },
     {
         id: 81,
-        productImage: 'https://static-01.daraz.com.np/p/70098941a627c1e7d5de1a09b45c049c.jpg',
+        productImage: '/images/70098941a627c1e7d5de1a09b45c049c.jpg',
         productTitle: 'Samsung Galaxy M14 5G (6/128GB) | 6.6" 90Hz FHD+ Display | 6000mAh',
         productPrice: '23,999',
         productStock: 'In Stock',
@@ -45,7 +45,7 @@ const mobileTabletData = [
     },
     {
         id: 82,
-        productImage: 'https://static-01.daraz.com.np/p/70098941a627c1e7d5de1a09b45c049c.jpg',
+        productImage: '/images/70098941a627c1e7d5de1a09b45c049c.jpg',
         productTitle: 'Samsung Galaxy M14 5G (6/128GB) | 6.6" 90Hz FHD+ Display | 6000mAh',
         productPrice: '23,999',
         productStock: 'In Stock',
@@ -56,7 +56,7 @@ const mobileTabletData = [
     },
     {
         id: 83,
-        productImage: 'https://static-01.daraz.com.np/p/70098941a627c1e7d5de1a09b45c049c.jpg',
+        productImage: '/images/70098941a627c1e7d5de1a09b45c049c.jpg',
         productTitle: 'Samsung Galaxy M14 5G (6/128GB) | 6.6" 90Hz FHD+ Display | 6000mAh',
         productPrice: '23,999',
         productStock: 'In Stock',
@@ -67,7 +67,7 @@ const mobileTabletData = [
     },
     {
         id: 84,
-        productImage: 'https://static-01.daraz.com.np/p/302303f73729023b478ff939ba9c5cd9.jpg',
+        productImage: '/images/302303f73729023b478ff939ba9c5cd9.jpg',
         productTitle: 'Redmi Note 12 4G | Snapdragon 685 | 120Hz AMOLED display',
         productPrice: '23,999',
         productStock: 'In Stock',
@@ -78,7 +78,7 @@ const mobileTabletData = [
     },
     {
         id: 85,
-        productImage: 'https://static-01.daraz.com.np/p/302303f73729023b478ff939ba9c5cd9.jpg',
+        productImage: '/images/302303f73729023b478ff939ba9c5cd9.jpg',
         productTitle: 'Redmi Note 12 4G | Snapdragon 685 | 120Hz AMOLED display',
         productPrice: '23,999',
         productStock: 'In Stock',
@@ -89,7 +89,7 @@ const mobileTabletData = [
     },
     {
         id: 86,
-        productImage: 'https://static-01.daraz.com.np/p/302303f73729023b478ff939ba9c5cd9.jpg',
+        productImage: '/images/302303f73729023b478ff939ba9c5cd9.jpg',
         productTitle: 'Redmi Note 12 4G | Snapdragon 685 | 120Hz AMOLED display',
         productPrice: '23,999',
         productStock: 'In Stock',
@@ -100,7 +100,7 @@ const mobileTabletData = [
     },
     {
         id: 87,
-        productImage: 'https://static-01.daraz.com.np/p/1c4d42b2b2411e4c26791bdc4ea81993.jpg',
+        productImage: '/images/1c4d42b2b2411e4c26791bdc4ea81993.jpg',
         productTitle: 'Foldable Tablet Mobile Phone Desktop Stand for iPad iPhone',
         productPrice: '208',
         productStock: 'In Stock',
@@ -111,7 +111,7 @@ const mobileTabletData = [
     },
     {
         id: 88,
-        productImage: 'https://static-01.daraz.com.np/p/1c4d42b2b2411e4c26791bdc4ea81993.jpg',
+        productImage: '/images/1c4d42b2b2411e4c26791bdc4ea81993.jpg',
         productTitle: 'Foldable Tablet Mobile Phone Desktop Stand for iPad iPhone',
         productPrice: '208',
         productStock: 'In Stock',
@@ -122,7 +122,7 @@ const mobileTabletData = [
     },
     {
         id: 89,
-        productImage: 'https://static-01.daraz.com.np/p/1c4d42b2b2411e4c26791bdc4ea81993.jpg',
+        productImage: '/images/1c4d42b2b2411e4c26791bdc4ea81993.jpg',
         productTitle: 'Foldable Tablet Mobile Phone Desktop Stand for iPad iPhone',
         productPrice: '208',
         productStock: 'In Stock',
@@ -133,7 +133,7 @@ const mobileTabletData = [
     },
     {
         id: 90,
-        productImage: 'https://static-01.daraz.com.np/p/f2939efd0fa843d221fd6cd6e6d1b374.jpg',
+        productImage: '/images/f2939efd0fa843d221fd6cd6e6d1b374.jpg',
         productTitle: 'Apple iPad 10th Gen, 10.9" Wi-Fi - Oliz Store',
         productPrice: '77,999',
         productStock: 'In Stock',
@@ -144,7 +144,7 @@ const mobileTabletData = [
     },
     {
         id: 91,
-        productImage: 'https://static-01.daraz.com.np/p/f2939efd0fa843d221fd6cd6e6d1b374.jpg',
+        productImage: '/images/f2939efd0fa843d221fd6cd6e6d1b374.jpg',
         productTitle: 'Apple iPad 10th Gen, 10.9" Wi-Fi - Oliz Store',
         productPrice: '77,999',
         productStock: 'In Stock',
@@ -155,7 +155,7 @@ const mobileTabletData = [
     },
     {
         id: 92,
-        productImage: 'https://static-01.daraz.com.np/p/f2939efd0fa843d221fd6cd6e6d1b374.jpg',
+        productImage: '/images/f2939efd0fa843d221fd6cd6e6d1b374.jpg',
         productTitle: 'Apple iPad 10th Gen, 10.9" Wi-Fi - Oliz Store',
         productPrice: '77,999',
         productStock: 'In Stock',

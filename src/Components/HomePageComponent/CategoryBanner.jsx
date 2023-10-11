@@ -26,7 +26,7 @@ function CategoryBanner() {
             <section className='category-section'>
                 <div className="container my-3">
                     <div className="row">
-                        <div className="col-lg-3">
+                        <div className="col-lg-3 bg-white">
                             <div className='d-flex align-items-center gap-2 px-3 py-2 text-white category-title'>
                                 <i className="fa-solid fa-bars"></i>
                                 <h4 className='m-0'>Categories</h4>
@@ -39,7 +39,7 @@ function CategoryBanner() {
                                 <p className='m-0'>Laptops and Computers</p>
                                 <i className="fa-solid fa-chevron-right"></i>
                                 {subCat && (
-                                    <div className='position-absolute sub-cat'>
+                                    <div className='position-absolute sub-cat bg-white'>
                                         <Link to="/laptop-computer-category/monitor-tv"><p>Monitors and TV</p></Link>
                                         <Link to="/laptop-computer-category/macbooks"><p>Macbooks</p></Link>
                                         <Link to="/laptop-computer-category/acer-laptops"><p>Acer Laptops</p></Link>
@@ -53,7 +53,7 @@ function CategoryBanner() {
                                 <p className='m-0'>Mobile and Tablets</p>
                                 <i className="fa-solid fa-chevron-right"></i>
                                 {subCat1 && (
-                                    <div className='position-absolute sub-cat'>
+                                    <div className='position-absolute sub-cat bg-white'>
                                         
                                         <Link to="/mobile-tablet-category/apple-phones"><p>Apple Phones</p></Link>
                                         <Link to="/mobile-tablet-category/samsung-phones"><p>Samsung Phones</p></Link>
@@ -67,7 +67,7 @@ function CategoryBanner() {
                                 <p className='m-0'>Audios</p>
                                 <i className="fa-solid fa-chevron-right"></i>
                                 {subCat2 && (
-                                    <div className='position-absolute sub-cat'>
+                                    <div className='position-absolute sub-cat bg-white'>
                                         <Link to="/audio-category/headphones-headsets"><p>Headphones and Headsets</p></Link>
                                         <Link to="/audio-category/gaming-headphones"><p>Gaming Headphones</p></Link>
                                         <Link to="/audio-category/speakers"><p>Speakers</p></Link>
@@ -79,7 +79,7 @@ function CategoryBanner() {
                                 <p className='m-0'>Storage</p>
                                 <i className="fa-solid fa-chevron-right"></i>
                                 {subCat3 && (
-                                    <div className='position-absolute sub-cat'>
+                                    <div className='position-absolute sub-cat bg-white'>
                                         <Link to="/storage-category/external-hard-drives"><p>External Harddrives</p></Link>
                                         <Link to="/storage-category/internal-hard-drives"><p>Internal Harddrives</p></Link>
                                         <Link to="/storage-category/flash-drives"><p>Flash Drives</p></Link>
@@ -90,7 +90,7 @@ function CategoryBanner() {
                                 <p className='m-0'>Wearable</p>
                                 <i className="fa-solid fa-chevron-right"></i>
                                 {subCat4 && (
-                                    <div className='position-absolute sub-cat'>
+                                    <div className='position-absolute sub-cat bg-white'>
                                         <Link to="/wearable-category/smart-watches"><p>Smartwatches</p></Link>
                                         <Link to="/wearable-category/virtual-reality"><p>Virtual reality</p></Link>
                                         <Link to="/wearable-category/fitness-activity-tracker"><p>Fitness and Activity Trackers</p></Link>
@@ -101,7 +101,7 @@ function CategoryBanner() {
                                 <p className='m-0'>Cameras</p>
                                 <i className="fa-solid fa-chevron-right"></i>
                                 {subCat5 && (
-                                    <div className='position-absolute sub-cat1'>
+                                    <div className='position-absolute sub-cat1 bg-white'>
                                         <Link to="/camera-category/webcams"><p>Webcams</p></Link>
                                         <Link to="/camera-category/home-security-cameras"><p>Home Security Cameras</p></Link>
                                         <Link to="/camera-category/drones"><p>Drones</p></Link>
@@ -114,7 +114,7 @@ function CategoryBanner() {
                                 <p className='m-0'>Network Products</p>
                                 <i className="fa-solid fa-chevron-right"></i>
                                 {subCat6 && (
-                                    <div className='position-absolute sub-cat1'>
+                                    <div className='position-absolute sub-cat1 bg-white'>
                                         <Link to="/network-category/routers"><p>Routers</p></Link>
                                         <Link to="/network-category/ethernet-cables"><p>Ethernet Cables</p></Link>
                                         <Link to="/network-category/network-switches"><p>Network Switches</p></Link>
