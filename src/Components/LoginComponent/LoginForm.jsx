@@ -8,7 +8,7 @@ function LoginForm() {
             <BreadCrumb breadPrev="Home" breadCurrent="Login" />
             <div className="container">
                 <div className="row my-4 mb-5 justify-content-center">
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 col-12 col-sm-12 col-md-12">
                         <div className='login-div form-text-size'>
                             <h3>Maxima Collection</h3>
                             <p>Sign-In</p>

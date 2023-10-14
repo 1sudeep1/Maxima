@@ -13,19 +13,19 @@ function Home() {
             <div className="container">
                 <div className=" position-relative">
                     <NewArrivals />
-                    <p className='position-absolute' style={{ top: "10px", right: "15px" }}><Link to="/new-arrivals">VIEW MORE</Link></p>
+                    <p className='position-absolute viewmore-btn' style={{ top: "17px", right: "15px" }}><Link to="/new-arrivals">VIEW MORE</Link></p>
                 </div>
                 <div className=" position-relative">
                     <LaptopComputer />
-                    <p className='position-absolute' style={{ top: "10px", right: "15px" }}><Link to="/laptop-computers">VIEW MORE</Link></p>
+                    <p className='position-absolute' style={{ top: "17px", right: "15px" }}><Link to="/laptop-computers">VIEW MORE</Link></p>
                 </div>
                 <div className=" position-relative">
                     <Cameras />
-                    <p className='position-absolute' style={{ top: "10px", right: "15px" }}><Link to="/cameras">VIEW MORE</Link></p>
+                    <p className='position-absolute' style={{ top: "17px", right: "15px" }}><Link to="/cameras">VIEW MORE</Link></p>
                 </div>
                 <div className=" position-relative">
                     <NetworkProduct />
-                    <p className='position-absolute' style={{ top: "10px", right: "15px" }}><Link to="/network-products">VIEW MORE</Link></p>
+                    <p className='position-absolute' style={{ top: "17px", right: "15px" }}><Link to="/network-products">VIEW MORE</Link></p>
                 </div>
             </div>
 

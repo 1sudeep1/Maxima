@@ -2,7 +2,7 @@ import React from 'react'
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
-import brandData from '../../Data/BrandData';
+import PartnersData from '../../Data/PartnersData';
 function OurClients() {
     const clients = {
         nav: true,
@@ -27,9 +27,9 @@ function OurClients() {
                     <div className="row">
                         <h5 className='text-uppercase fw-bold text-center'>Our Clients</h5>
                         <OwlCarousel className='owl-theme' loop margin={10} autoplay {...clients}>
-                            {brandData.map((item) => (
+                            {PartnersData.map((item) => (
                                 <div className='my-3' key={item.id}>
-                                    <img className='w-50 img-fluid thumbnails' src={item.brand_img} alt="" />
+                                    <img className='w-50 img-fluid thumbnails' src={item.partnerImage} alt="" />
                                 </div>
                             ))}
                         </OwlCarousel>

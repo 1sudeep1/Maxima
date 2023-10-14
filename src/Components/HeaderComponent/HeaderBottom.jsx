@@ -20,30 +20,32 @@ import Contact from '../../Pages/Contact'
 import SearchProduct from '../../Pages/SearchProduct'
 import WishList from '../../Pages/WishList'
 import MyCart from '../../Pages/MyCart'
+import Partners from '../../Pages/Partners'
+import SinglePartners from '../../Pages/SinglePartners'
 function HeaderBottom() {
     return (
         <>
             <section className='menu'>
                 <div className="container py-3">
                     <div className="row justify-content-between">
-                        <div className="col-lg-4">
+                        <div className="col-lg-4 col-12 col-md-6 col-sm-12">
                             <div className="row">
-                                <div className="col-lg-6">
+                                <div className="col-lg-6 col-6">
                                     <div className='d-flex align-items-center gap-2'>
                                         <i className="fa-solid fa-star fs-6"></i>
                                         <Link to="new-arrivals"><h5 className='m-0'>New Arrival</h5></Link>
                                     </div>
                                 </div>
-                                <div className="col-lg-6">
+                                <div className="col-lg-6 col-6">
                                     <div className='d-flex align-items-center gap-2'>
                                         <i className="fa-solid fa-handshake-simple"></i>
-                                        <h5 className='m-0'>Partners</h5>
+                                        <h5 className='m-0'><Link to="/partners">Partners</Link></h5>
                                     </div>
                                 </div>
                             </div>
 
                         </div>
-                        <div className="col-lg-4 text-end">
+                        <div className="col-lg-4 text-end col-12 discount-percent col-md-6 col-sm-12">
                             <div className='d-flex align-items-center gap-2'>
                                 <i className="fa-solid fa-star fs-6"></i>
                                 <p className='m-0'>Get upto 15% off on selected items.</p>
@@ -72,6 +74,8 @@ function HeaderBottom() {
                 <Route path="/search-product" element={<SearchProduct />} />
                 <Route path="/wishlist" element={<WishList />} />
                 <Route path="/cart-items" element={<MyCart />} />
+                <Route path="/partners" element={<Partners />} />
+                <Route path="/channel-partners/:pid" element={<SinglePartners />} />
             </Routes>
         </>
     )

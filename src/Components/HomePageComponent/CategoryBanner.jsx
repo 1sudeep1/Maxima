@@ -26,7 +26,7 @@ function CategoryBanner() {
             <section className='category-section'>
                 <div className="container my-3">
                     <div className="row">
-                        <div className="col-lg-3 bg-white">
+                        <div className="col-lg-3 bg-white category-list">
                             <div className='d-flex align-items-center gap-2 px-3 py-2 text-white category-title'>
                                 <i className="fa-solid fa-bars"></i>
                                 <h4 className='m-0'>Categories</h4>

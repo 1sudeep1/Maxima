@@ -12,3 +12,91 @@ ul {
 a {
     text-decoration: none;
 }
+
+@media (max-width:991px) {
+    .logo {
+        width: 75%;
+    }
+
+    .product-content {
+        bottom: 5px !important;
+    }
+    .partner-image{
+        width: 100% !important;
+    }
+}
+
+@media (max-width:767px) {
+    .logo {
+        width: 100%;
+    }
+
+    .header-icon {
+        justify-content: center !important;
+    }
+
+    .discount-percent {
+        text-align: center !important;
+    }
+
+    .hambergur {
+        display: block;
+    }
+
+    .category-list {
+        display: none;
+    }
+
+    .product-card {
+        height: 300px;
+    }
+    .copyright{
+        text-align: start !important;
+    }
+    .partner-image{
+        width: 50% !important;
+    }
+}
+
+@media (max-width:575px) {
+    .product-img {
+        width: 35% !important;
+    }
+
+    .product-card {
+        height: 250px !important;
+    }
+    .product-content {
+        bottom: 15px !important;
+    }
+    .table-blank{
+        display: none;
+    }
+    .media-body{
+        font-size: 14px !important;
+        // .media-heading{
+        //     font-size: 17px;
+        // }
+    }
+    .remove-btn{
+        display: none;
+    }
+    .remove-btn1{
+        display: block !important;
+    }
+    .breadcrumb-section{
+        top: 58% !important;
+    }
+ .related-image{
+    width: 30% !important;
+    margin-left: 35%;
+ }
+
+}
+
+@media (max-width:480px){
+    .related-image{
+        width: 40% !important;
+        margin-left: 30%;
+     }
+}

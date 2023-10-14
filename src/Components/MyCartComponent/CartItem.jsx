@@ -2,7 +2,6 @@ import React from 'react'
 import BreadCrumb from '../BreadCrumbComonent/BreadCrumb'
 import { useDispatch, useSelector } from 'react-redux'
 import { removeFromCart } from '../../Redux/cartSlice';
-import { selectTotalAmountFormatted } from '../../Redux/cartSlice';
 import { Link } from 'react-router-dom';
 function CartItem() {
     const { cartItems, totalAmount, quantity } = useSelector((state) => state.cart);
@@ -11,7 +10,6 @@ function CartItem() {
         // Dispatch an action to update the quantity for the specific item
         dispatch(updateCartItemQuantity(itemId, newQuantity));
     };
-    const totalAmountFormatted = useSelector(selectTotalAmountFormatted);
     return (
         <>
             <BreadCrumb breadPrev="Home" breadCurrent="Shopping Cart" />
@@ -23,8 +21,8 @@ function CartItem() {
                                 <tr>
                                     <th>Product</th>
                                     <th>Quantity</th>
-                                    <th className="text-center">Price</th>
-                                    <th className="text-center">Total</th>
+                                    <th>Price</th>
+                                    <th>Total</th>
                                     <th>&nbsp;</th>
                                 </tr>
                             </thead>
@@ -34,43 +32,40 @@ function CartItem() {
                                         <td className="col-sm-8 col-md-6">
                                             <div className="media">
                                                 <Link to={`/single-product/${item.id}`} className="thumbnail pull-left"> <img className="media-object" src={item.productImage} style={{ width: 100, height: 100 }} /> </Link>
-                                                <div className="media-body">
+                                                <div className="media-body d-flex flex-column">
                                                     <h4 className="media-heading"><Link to={`/single-product/${item.id}`}>{item.productTitle}</Link></h4>
                                                     <span>Status: </span><span className="text-success"><strong>{item.productStock}</strong></span>
-                                                </div>
+                                                        <button type="button" className="btn btn-danger btn-sm remove-btn1 d-none" onClick={() => dispatch(removeFromCart(item))}>
+                                                            Remove
+                                                        </button>
+                                                </div> 
                                             </div></td>
-                                        <td className="col-sm-1 col-md-1" style={{ textAlign: 'center' }}>
+                                        <td className="col-sm-1 col-md-1">
                                             <input type="number" className="form-control" id="quantity" defaultValue={item.quantity} readOnly onChange={(e) => handleQuantityChange(item.id, parseInt(e.target.value))} />
                                         </td>
-                                        <td className="col-sm-1 col-md-1 text-center"><strong>{item.productPrice}</strong></td>
-                                        <td className="col-sm-1 col-md-1 text-center"><strong>{(parseFloat(item.productPrice.replace(/,/g, '')) * item.quantity).toLocaleString()}</strong></td>
+                                        <td className="col-sm-1 col-md-1"><strong>{item.productPrice}</strong></td>
+                                        <td className="col-sm-1 col-md-1"><strong>{(parseFloat(item.productPrice.replace(/,/g, '')) * item.quantity).toLocaleString()}</strong></td>
 
-                                        <td className="col-sm-1 col-md-1">
-                                            <button type="button" className="btn btn-danger" onClick={() => dispatch(removeFromCart(item))}>
-                                                <span className="glyphicon glyphicon-remove" /> Remove
+                                        <td className="col-sm-12 col-md-1 remove-btn">
+                                            <button type="button" className="btn btn-danger btn-sm" onClick={() => dispatch(removeFromCart(item))}>
+                                                Remove
                                             </button></td>
                                     </tr>
                                 ))}
 
                                 <tr>
-                                    <td> &nbsp; </td>
-                                    <td> &nbsp; </td>
-                                    <td> &nbsp; </td>
+                                    <td className='table-blank'> &nbsp; </td>
+                                    <td className='table-blank'> &nbsp; </td>
+                                    <td > &nbsp; </td>
                                     <td><h3>Total</h3></td>
                                     <td className="text-right"><h3><strong>{totalAmount.toLocaleString()}</strong></h3></td>
                                 </tr>
                                 <tr>
-                                    <td> &nbsp; </td>
-                                    <td> &nbsp; </td>
-                                    <td> &nbsp; </td>
-                                    <td>
-                                        <button type="button" className="btn btn-default">
-                                            <span className="glyphicon glyphicon-shopping-cart" /> Continue Shopping
-                                        </button></td>
-                                    <td>
-                                        <button type="button" className="btn btn-success">
-                                            Checkout <span className="glyphicon glyphicon-play" />
-                                        </button></td>
+                                    <td className='table-blank'> &nbsp; </td>
+                                    <td className='table-blank'> &nbsp; </td>
+                                    <td > &nbsp; </td>
+                                    <td><h6>Continue Shopping</h6></td>
+                                    <td><button className='btn btn-success btn-sm'>Checkout</button></td>
                                 </tr>
                             </tbody>
                         </table>

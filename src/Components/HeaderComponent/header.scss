@@ -1,6 +1,9 @@
 header{
     background: #fff;
 }
+.hambergur{
+   display: none; 
+}
 .header-fix{
     position: fixed;
     width: 100%;
@@ -13,8 +16,13 @@ header{
     }
 }
 .logo{
-    width: 45%;
+  width: 45%;
 }
+.offcanvas-header{
+    background: #0C48E4;
+    color: #fff;
+}
+
 .search {
     input{
         border-radius: 20px !important;

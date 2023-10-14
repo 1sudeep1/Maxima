@@ -5,7 +5,7 @@ function ContactBanner(props) {
     return (
         <>
             <section className='position-relative banner-section'>
-                <img className='w-100 img-fluid thumbnails banner-image' src="https://png.pngtree.com/background/20210710/original/pngtree-blue-e-commerce-technology-banner-background-picture-image_1033972.jpg" alt="" />
+                <img className='w-100 img-fluid thumbnails banner-image' src="/images/pngtree-blue-e-commerce-technology-banner-background-picture-image_1033972.jpg" alt="" />
                 <h2 className='position-absolute banner-title'>{props.bannerTitle}</h2>
                 <div aria-label="breadcrumb" className='position-absolute breadcrumb-section'>
                     <ol className="breadcrumb">

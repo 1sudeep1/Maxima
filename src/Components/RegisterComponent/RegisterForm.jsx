@@ -8,7 +8,7 @@ function RegisterForm() {
             <BreadCrumb breadPrev="Home" breadCurrent="Register" />
             <div className="container">
             <div className="row my-4 mb-5 justify-content-center">
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 col-12 col-sm-12 col-md-12">
                         <div className='register-div form-text-size'>
                             <h3>Maxima Collection</h3>
                             <p>Create an Account</p>

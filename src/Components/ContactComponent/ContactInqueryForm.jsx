@@ -7,8 +7,8 @@ function ContactInqueryForm() {
         <>
             <section className='py-5'>
                 <div className="container d-flex flex-column row-gap-5">
-                    <div className="row justify-content-between ">
-                        <div className="col-lg-6">
+                    <div className="row justify-content-between row-gap-3">
+                        <div className="col-lg-6 col-md-6 col-sm-12 col-12">
                             <h4 className='fw-bold'>Any Inquery</h4>
                             <form action="" className='d-flex flex-column row-gap-2'>
                                 <div className='d-flex gap-2'>
@@ -19,7 +19,7 @@ function ContactInqueryForm() {
                                 <button className='btn btn-primary w-25 btn-sm' type='submit'>Send</button>
                             </form>
                         </div>
-                        <div className="col-lg-6">
+                        <div className="col-lg-6 col-md-6 col-sm-12 col-12">
                             <h4 className='fw-bold'>Location</h4>
                             <p>Hikvision-Nepal Tower, Bu.Na.Pa-02, Kathmandu  </p>
                             <h4 className='fw-bold'>Phone</h4>

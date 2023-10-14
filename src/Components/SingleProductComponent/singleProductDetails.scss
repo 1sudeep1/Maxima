@@ -1,33 +1,41 @@
-.cart-btn{
+.cart-btn {
     background-color: #0D52E0;
     color: #fff;
     border-radius: 5px;
-    &:hover{
+
+    &:hover {
         transform: scale(0.9);
         transition: 0.2s;
     }
 }
 
-.features{
-    p{
+.features {
+    p {
         margin: 0;
     }
-    .fa-circle{
-       font-size: 5px;
+
+    .fa-circle {
+        font-size: 5px;
     }
 }
 
-.fa-asterisk{
+.fa-asterisk {
     font-size: 8px;
 }
 
-.rating-star{
+.rating-star {
     cursor: pointer;
-    .active{
+
+    .active {
         color: #FF9C1A;
     }
 }
-.product-img:hover{
-    transform: scale(1.009);
-    transition: 0.4s;
+
+.product-img1 {
+    width: 75%;
+
+    &:hover {
+        transform: scale(1.009);
+        transition: 0.4s;
+    }
 }
