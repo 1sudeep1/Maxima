@@ -30,6 +30,9 @@ a {
     .logo {
         width: 100%;
     }
+    .footer-logo{
+        width: 50% !important;
+    }
 
     .header-icon {
         justify-content: center !important;
@@ -98,5 +101,8 @@ a {
     .related-image{
         width: 40% !important;
         margin-left: 30%;
+     }
+     .logo{
+        width: 50% !important;
      }
 }

@@ -10,7 +10,7 @@ function Footer() {
                 <div className="container py-5">
                     <div className="row justify-content-between row-gap-4">
                         <div className="col-lg-3 col-12 col-md-6">
-                            <Link to="/"><img className='w-75 logo img-fluid thumbnails my-2' src={logo} alt="" /></Link>
+                            <Link to="/"><img className='w-75 logo footer-logo img-fluid thumbnails my-2' src={logo} alt="" /></Link>
                             <h4 className='text-white'>Maxima Multinational</h4>
                         </div>
                         <div className="col-lg-4 col-sm-12 col-md-6 col-12">
