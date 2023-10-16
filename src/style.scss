@@ -32,6 +32,26 @@ a {
     }
     .footer-logo{
         width: 50% !important;
+      
+    }
+    .footer-main{
+        justify-content: center !important;
+        text-align: center;
+
+    }
+    .footer-information{
+        align-items: center;
+    }
+    .footer-icon{
+        justify-content: center;
+    }
+
+
+    .contact-div{
+        align-items: center;
+    }
+    .map-div{
+        align-items: center;
     }
 
     .header-icon {
@@ -54,7 +74,7 @@ a {
         height: 300px;
     }
     .copyright{
-        text-align: start !important;
+        text-align: center !important;
     }
     .partner-image{
         width: 50% !important;
