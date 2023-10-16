@@ -1,9 +1,12 @@
 import React from 'react'
 import { Link, useParams } from 'react-router-dom'
 import LaptopComputerData from '../Data/LaptopComputerData';
+import { useDispatch } from 'react-redux';
+import { addToCart, addToWishList } from '../Redux/cartSlice';
 function LaptopComputerCategory() {
     const { subcat } = useParams();
     const laptopComputerProductFilter = LaptopComputerData.filter((item) => (item.productCat === subcat));
+    const dispatch = useDispatch()
     return (
         <>
             <section>
@@ -20,7 +23,7 @@ function LaptopComputerCategory() {
                                     </div>
                                     <div className="leftservice-icon position-absolute">
                                         <div className='d-flex align-items-center gap-2 justify-content-center'>
-                                            <Link to="" title='link'><i className="fa-solid fa-link"></i></Link>
+                                            {/* <Link to="" title='link'><i className="fa-solid fa-link"></i></Link> */}
                                             <Link to="" title='add to cart' onClick={() => dispatch(addToCart(item))}><i className="fa-solid fa-cart-shopping"></i></Link>
                                             <span title='wishlist' onClick={() => dispatch(addToWishList(item))}> <i className="fa-solid fa-heart"></i></span>
                                         </div>

@@ -27,6 +27,7 @@ const LaptopComputerData = [
         id:15,
         productImage: '/images/32_rcblqNq.jpg',
         productTitle: 'Villa Analog Kit (DS-KIS203T)',
+        productPrice:'2,100',
         productStock:'In Stock',
         productCode:'DS-D5B65RB/D',
         productDescription:'Ultra HD display with up to 3840 × 2160 resolution of input signal available. 20px ultra fine writing, and 2 mm diameter recognizable with the precision of 1 mm. Built-in Wi-Fi realizes miracasting without any cable connection. Built-in interactive whiteboard system allows annotating and sharing by QR code. Looping-out display available. Various audio and video interfaces for device access. Built-in network switch chip saves a network switch.',
