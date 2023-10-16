@@ -33,7 +33,7 @@ function Footer() {
                             <div className='d-flex flex-column row-gap-2'>
                                 <div className='d-flex align-items-center gap-2'>
                                     <i className="fa-solid fa-arrow-right"></i>
-                                    <Link to="">Partners</Link>
+                                    <Link to="/partners">Partners</Link>
                                 </div>
                                 <div className='d-flex align-items-center gap-2'>
                                     <i className="fa-solid fa-arrow-right"></i>

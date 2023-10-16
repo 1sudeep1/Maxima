@@ -1,7 +1,7 @@
 const PartnersData = [
     {
         id:1,
-        partnerImage:'http://maxima.com.np/media/navigation/banner1/starwave_79opXUx.png',
+        partnerImage:'/images/starwave_79opXUx.png',
         partnerCompany:'Starwave Technology Pvt. Ltd.',
         partnerSolutionTitle:'HIKVISION CCTV VALUE ADDED SOLUTION PARTNER',
         partnerLocation:'Baneshwor, Kathmandu',
@@ -11,7 +11,7 @@ const PartnersData = [
     },
     {
         id:2,
-        partnerImage:'http://maxima.com.np/media/navigation/banner1/nexgen.png',
+        partnerImage:'/images/nexgen.png',
         partnerCompany:'Nexgen IT Solutions Pvt. Ltd.',
         partnerSolutionTitle:'HIKVISION CCTV VALUE ADDED SOLUTION PARTNER',
         partnerLocation:'Baluwatar, Kathmandu, Nepal',
@@ -22,7 +22,7 @@ const PartnersData = [
     },
     {
         id:3,
-        partnerImage:'http://maxima.com.np/media/navigation/banner1/madani.png',
+        partnerImage:'/images/madani.png',
         partnerCompany:'Madani Technology Pvt. Ltd.',
         partnerSolutionTitle:'HIKVISION CCTV VALUE ADDED SOLUTION PARTNER',
         partnerLocation:' Putalisadak, New Plaza,  Kathmandu',
@@ -31,7 +31,7 @@ const PartnersData = [
     },
     {
         id:4,
-        partnerImage:'http://maxima.com.np/media/navigation/banner1/n-b.jpg',
+        partnerImage:'/images/n-b.jpg',
         partnerCompany:'N.B Trading House',
         partnerSolutionTitle:'HIKVISION CCTV VALUE ADDED SOLUTION PARTNER',
         partnerLocation:'Banepa, Nepal',
@@ -41,7 +41,7 @@ const PartnersData = [
     },
     {
         id:5,
-        partnerImage:'http://maxima.com.np/media/navigation/banner1/supreme_8I0biic.png',
+        partnerImage:'/images/supreme_8I0biic.png',
         partnerCompany:'Supreme Traders',
         partnerSolutionTitle:'HIKVISION CCTV VALUE ADDED SOLUTION PARTNER',
         partnerLocation:'Newroad Muchha House Galli, Kathmandu, Nepal',
@@ -53,7 +53,7 @@ const PartnersData = [
     },
     {
         id:6,
-        partnerImage:'http://maxima.com.np/media/navigation/banner1/j4-tech.png',
+        partnerImage:'/images/j4-tech.png',
         partnerCompany:'J Four Tech Pvt. Ltd.',
         partnerSolutionTitle:'HIKVISION CCTV VALUE ADDED SOLUTION PARTNER',
         partnerLocation:'Sundhara, Kathmandu',
@@ -65,7 +65,7 @@ const PartnersData = [
     },
     {
         id:7,
-        partnerImage:'http://maxima.com.np/media/navigation/banner1/high-vision.png',
+        partnerImage:'/images/high-vision.png',
         partnerCompany:'High Vision Technology Pvt. Ltd.',
         partnerSolutionTitle:'HIKVISION CCTV VALUE ADDED SOLUTION PARTNER',
         partnerLocation:' Sundhara, Kathmandu, Nepal',
@@ -77,7 +77,7 @@ const PartnersData = [
     },
     {
         id:8,
-        partnerImage:'http://maxima.com.np/media/navigation/banner1/henso.png',
+        partnerImage:'/images/henso.png',
         partnerCompany:'Hensophone Electric And Electronics Pvt. Ltd.',
         partnerSolutionTitle:'HIKVISION CCTV VALUE ADDED SOLUTION PARTNER',
         partnerLocation:' Mid-Baneshwor, Kathmandu, Nepal',
@@ -90,7 +90,7 @@ const PartnersData = [
     },
     {
         id:9,
-        partnerImage:'http://maxima.com.np/media/navigation/banner1/all_nepal.png',
+        partnerImage:'/images/all_nepal.png',
         partnerCompany:'All Nepal Sales & Service Pvt. Ltd.',
         partnerSolutionTitle:'HIKVISION CCTV VALUE ADDED SOLUTION PARTNER',
         partnerLocation:'Baluwatar, Kathmandu, Nepal, 44600',
@@ -103,7 +103,7 @@ const PartnersData = [
     },
     {
         id:10,
-        partnerImage:'http://maxima.com.np/media/navigation/banner1/mega.png',
+        partnerImage:'/images/mega.png',
         partnerCompany:'Mega Vision Traders',
         partnerSolutionTitle:'HIKVISION CCTV VALUE ADDED SOLUTION PARTNER',
         partnerLocation:'New Road, Kathmandu',
@@ -116,7 +116,7 @@ const PartnersData = [
     },
     {
         id:11,
-        partnerImage:'http://maxima.com.np/media/navigation/banner1/alwish.png',
+        partnerImage:'/images/alwish.png',
         partnerCompany:'Alwish & A.D Company Pvt. Ltd.',
         partnerSolutionTitle:'HIKVISION CCTV VALUE ADDED SOLUTION PARTNER',
         partnerLocation:'chabahil-7, Kathmandu, Nepal',
@@ -129,7 +129,7 @@ const PartnersData = [
     },
     {
         id:12,
-        partnerImage:'http://maxima.com.np/media/navigation/banner1/technological.jpg',
+        partnerImage:'/images/technological.jpg',
         partnerCompany:'Technological Solution &Trade Concern',
         partnerSolutionTitle:'HIKVISION CCTV VALUE ADDED SOLUTION PARTNER',
         partnerLocation:'kalanki-14 , Kathmandu, Nepal',
@@ -141,7 +141,7 @@ const PartnersData = [
     },
     {
         id:13,
-        partnerImage:'http://maxima.com.np/media/navigation/banner1/apii.png',
+        partnerImage:'/images/apii.png',
         partnerCompany:'Api Technology Pvt. Ltd.',
         partnerSolutionTitle:'HIKVISION CCTV VALUE ADDED SOLUTION PARTNER',
         partnerLocation:'Mid-Baneshwor, Kathmandu, Nepal, 44600',
@@ -154,7 +154,7 @@ const PartnersData = [
     },
     {
         id:14,
-        partnerImage:'http://maxima.com.np/media/navigation/banner1/advanech.png',
+        partnerImage:'/images/advanech.png',
         partnerCompany:'Advan Tech Trade Link',
         partnerSolutionTitle:'HIKVISION CCTV VALUE ADDED SOLUTION PARTNER',
         partnerLocation:'Pepsicola, Kathmandu',
@@ -166,7 +166,7 @@ const PartnersData = [
     },
     {
         id:15,
-        partnerImage:'http://maxima.com.np/media/navigation/banner1/p.d.jpg',
+        partnerImage:'/images/p.d.jpg',
         partnerCompany:'P.D Enterprises',
         partnerSolutionTitle:'HIKVISION CCTV VALUE ADDED SOLUTION PARTNER',
         partnerLocation:'Baisdhara, Balaju, Kathmandu, Nepal',
@@ -178,7 +178,7 @@ const PartnersData = [
     },
     {
         id:16,
-        partnerImage:'http://maxima.com.np/media/navigation/banner1/passion.jpg',
+        partnerImage:'/images/passion.jpg',
         partnerCompany:'Passion Security Solution Pvt. Ltd.',
         partnerSolutionTitle:'HIKVISION CCTV VALUE ADDED SOLUTION PARTNER',
         partnerLocation:'Kumari Marga, Tripureshwor, Near Army HQ, Kathmandu, Nepal',
@@ -190,7 +190,7 @@ const PartnersData = [
     },
     {
         id:17,
-        partnerImage:'http://maxima.com.np/media/navigation/banner1/reejan.jpg',
+        partnerImage:'/images/reejan.jpg',
         partnerCompany:'Reejan Enterprises Pvt. Ltd.',
         partnerSolutionTitle:'HIKVISION CCTV VALUE ADDED SOLUTION PARTNER',
         partnerLocation:'Koteshwor, Kathmandu, Nepal',
@@ -203,7 +203,7 @@ const PartnersData = [
     },
     {
         id:18,
-        partnerImage:'http://maxima.com.np/media/navigation/banner1/nano.jpg',
+        partnerImage:'/images/nano.jpg',
         partnerCompany:'Nano Trade Concern Pvt. Ltd.',
         partnerSolutionTitle:'HIKVISION CCTV VALUE ADDED SOLUTION PARTNER',
         partnerLocation:'Naya Bazzar, Kirtpur-09, Kathmandu, Nepal',
@@ -214,7 +214,7 @@ const PartnersData = [
     },
     {
         id:19,
-        partnerImage:'http://maxima.com.np/media/navigation/banner1/mahalaxmi.jpg',
+        partnerImage:'/images/mahalaxmi.jpg',
         partnerCompany:'Mahalaxmi Power Enterprises',
         partnerSolutionTitle:'HIKVISION CCTV VALUE ADDED SOLUTION PARTNER',
         partnerLocation:' Newroad, Kathmandu, Nepal',
@@ -226,7 +226,7 @@ const PartnersData = [
     },
     {
         id:20,
-        partnerImage:'http://maxima.com.np/media/navigation/banner1/better-life.jpg',
+        partnerImage:'/images/better-life.jpg',
         partnerCompany:'Better Life Computer Center',
         partnerSolutionTitle:'HIKVISION CCTV VALUE ADDED SOLUTION PARTNER',
         partnerLocation:'prayagpokhari, lagankhel,, Lalitpur, Nepal',
@@ -238,7 +238,7 @@ const PartnersData = [
     },
     {
         id:21,
-        partnerImage:'http://maxima.com.np/media/navigation/banner1/STR_xpXeZvV.png',
+        partnerImage:'/images/STR_xpXeZvV.png',
         partnerCompany:'STR Computer Pvt. Ltd',
         partnerSolutionTitle:'HIKVISION CCTV VALUE ADDED SOLUTION PARTNER',
         partnerLocation:'Lagankhel, Shajabhawan, Lalitpur',
@@ -250,7 +250,7 @@ const PartnersData = [
     },
     {
         id:21,
-        partnerImage:'http://maxima.com.np/media/navigation/banner1/safety-house_fLRiJLQ.jpg',
+        partnerImage:'/images/safety-house_fLRiJLQ.jpg',
         partnerCompany:'Safety House Nepal',
         partnerSolutionTitle:'HIKVISION CCTV VALUE ADDED SOLUTION PARTNER',
         partnerLocation:' Pulchowk, Lalitpur',
@@ -263,7 +263,7 @@ const PartnersData = [
     },
     {
         id:22,
-        partnerImage:'http://maxima.com.np/media/navigation/banner1/roy-grp_Hw9CjUU.jpg',
+        partnerImage:'/images/roy-grp_Hw9CjUU.jpg',
         partnerCompany:'Roy Group of Company Pvt. Ltd.',
         partnerSolutionTitle:'HIKVISION CCTV VALUE ADDED SOLUTION PARTNER',
         partnerLocation:' Pulchowk, Lalitpur',
@@ -275,7 +275,7 @@ const PartnersData = [
     },
     {
         id:23,
-        partnerImage:'http://maxima.com.np/media/navigation/banner1/riona_x4P7cON.jpg',
+        partnerImage:'/images/riona_x4P7cON.jpg',
         partnerCompany:'Riona Enterprises',
         partnerSolutionTitle:'HIKVISION CCTV VALUE ADDED SOLUTION PARTNER',
         partnerLocation:'Banepa-10, Kavrepalanchowk, Nepal',
@@ -287,7 +287,7 @@ const PartnersData = [
     },
     {
         id:24,
-        partnerImage:'http://maxima.com.np/media/navigation/banner1/super-star_D3Alaka.jpg',
+        partnerImage:'/images/super-star_D3Alaka.jpg',
         partnerCompany:'Super Star Electronics Industries',
         partnerSolutionTitle:'HIKVISION CCTV VALUE ADDED SOLUTION PARTNER',
         partnerLocation:' Pragatipath, Narayangarh, Chitwan',
@@ -299,7 +299,7 @@ const PartnersData = [
     },
     {
         id:25,
-        partnerImage:'http://maxima.com.np/media/navigation/banner1/expert.jpg',
+        partnerImage:'/images/expert.jpg',
         partnerCompany:'Expert Laptop Solution Pvt. Ltd.',
         partnerSolutionTitle:'HIKVISION CCTV VALUE ADDED SOLUTION PARTNER',
         partnerLocation:'Narayangarh, Chitwan, Nepal',
@@ -312,7 +312,7 @@ const PartnersData = [
     },
     {
         id:26,
-        partnerImage:'http://maxima.com.np/media/navigation/banner1/overall.jpg',
+        partnerImage:'/images/overall.jpg',
         partnerCompany:'Overall Engineering Solution Pvt. Ltd.',
         partnerSolutionTitle:'HIKVISION CCTV VALUE ADDED SOLUTION PARTNER',
         partnerLocation:'Bhaktapur, Nepal',
@@ -324,7 +324,7 @@ const PartnersData = [
     },
     {
         id:27,
-        partnerImage:'http://maxima.com.np/media/navigation/banner1/advance-tech_sRyRFho.jpg',
+        partnerImage:'/images/advance-tech_sRyRFho.jpg',
         partnerCompany:'Advance Technology Group',
         partnerSolutionTitle:'HIKVISION CCTV VALUE ADDED SOLUTION PARTNER',
         partnerLocation:'Hetauda-4, Parijaatpath, Makwanpur, Hetauda Bazar, Nepal,',
@@ -336,7 +336,7 @@ const PartnersData = [
     },
     {
         id:28,
-        partnerImage:'http://maxima.com.np/media/navigation/banner1/pinnacle.jpg',
+        partnerImage:'/images/pinnacle.jpg',
         partnerCompany:'Pinnacle Computer, Pokhara',
         partnerSolutionTitle:'HIKVISION CCTV VALUE ADDED SOLUTION PARTNER',
         partnerLocation:' New road , Pokhara, Nepal',
@@ -349,7 +349,7 @@ const PartnersData = [
     },
     {
         id:29,
-        partnerImage:'http://maxima.com.np/media/navigation/banner1/kelina.jpg',
+        partnerImage:'/images/kelina.jpg',
         partnerCompany:'Kelina International',
         partnerSolutionTitle:'HIKVISION CCTV VALUE ADDED SOLUTION PARTNER',
         partnerLocation:'Pokhara, Nepal',
@@ -361,7 +361,7 @@ const PartnersData = [
     },
     {
         id:30,
-        partnerImage:'http://maxima.com.np/media/navigation/banner1/cosmic.jpg',
+        partnerImage:'/images/cosmic.jpg',
         partnerCompany:'Cosmic IT Solution Point',
         partnerSolutionTitle:'HIKVISION CCTV VALUE ADDED SOLUTION PARTNER',
         partnerLocation:'Kawasoti, Nawalpur',
@@ -373,7 +373,7 @@ const PartnersData = [
     },
     {
         id:31,
-        partnerImage:'http://maxima.com.np/media/navigation/banner1/lumbini.jpg',
+        partnerImage:'/images/lumbini.jpg',
         partnerCompany:'Lumbini Enterprises',
         partnerSolutionTitle:'HIKVISION CCTV VALUE ADDED SOLUTION PARTNER',
         partnerLocation:'Besisahar, Lamjung, Nepal',
@@ -385,7 +385,7 @@ const PartnersData = [
     },
     {
         id:32,
-        partnerImage:'http://maxima.com.np/media/navigation/banner1/tejasvi.jpg',
+        partnerImage:'/images/tejasvi.jpg',
         partnerCompany:'Tejasvi Computer Support Pvt. Ltd.',
         partnerSolutionTitle:'HIKVISION CCTV VALUE ADDED SOLUTION PARTNER',
         partnerLocation:'Bhadrapur Road, Birtamode, Jhapa, Jhapa District, Nepal',
@@ -397,7 +397,7 @@ const PartnersData = [
     },
     {
         id:33,
-        partnerImage:'http://maxima.com.np/media/navigation/banner1/RS-computer.png',
+        partnerImage:'/images/RS-computer.png',
         partnerCompany:'RS Computer',
         partnerSolutionTitle:'HIKVISION CCTV VALUE ADDED SOLUTION PARTNER',
         partnerLocation:'Damak (Thana Road), Jhapa District, Nepal',
@@ -408,7 +408,7 @@ const PartnersData = [
     },
     {
         id:34,
-        partnerImage:'http://maxima.com.np/media/navigation/banner1/paragon-it_Q0amF9F.jpg',
+        partnerImage:'/images/paragon-it_Q0amF9F.jpg',
         partnerCompany:'Paragon IT Solution Pvt. Ltd.',
         partnerSolutionTitle:'HIKVISION CCTV VALUE ADDED SOLUTION PARTNER',
         partnerLocation:' Itahari-6, Inaruwa Road, Attach with Mega Bank, Itahari, Nepal',
@@ -420,7 +420,7 @@ const PartnersData = [
     },
     {
         id:35,
-        partnerImage:'http://maxima.com.np/media/navigation/banner1/multiplex_3DhuAs9.jpg',
+        partnerImage:'/images/multiplex_3DhuAs9.jpg',
         partnerCompany:'Multiplex Info System',
         partnerSolutionTitle:'HIKVISION CCTV VALUE ADDED SOLUTION PARTNER',
         partnerLocation:'Main Road, Biratnagar, Nepal',
@@ -432,7 +432,7 @@ const PartnersData = [
     },
     {
         id:36,
-        partnerImage:'http://maxima.com.np/media/navigation/banner1/daju-bhai.jpg',
+        partnerImage:'/images/daju-bhai.jpg',
         partnerCompany:'Daju Bhai Traders',
         partnerSolutionTitle:'HIKVISION CCTV VALUE ADDED SOLUTION PARTNER',
         partnerLocation:'Butwal, Nepal',
@@ -444,7 +444,7 @@ const PartnersData = [
     },
     {
         id:37,
-        partnerImage:'http://maxima.com.np/media/navigation/banner1/atlas.png',
+        partnerImage:'/images/atlas.png',
         partnerCompany:'Atlas Info Tech Group',
         partnerSolutionTitle:'HIKVISION CCTV VALUE ADDED SOLUTION PARTNER',
         partnerLocation:'Butwal, Nepal',
@@ -456,7 +456,7 @@ const PartnersData = [
     },
     {
         id:38,
-        partnerImage:'http://maxima.com.np/media/navigation/banner1/shuvalaxmi_nBcdwFh.jpg',
+        partnerImage:'/images/shuvalaxmi_nBcdwFh.jpg',
         partnerCompany:'Shuva Laxmi IT',
         partnerSolutionTitle:'HIKVISION CCTV VALUE ADDED SOLUTION PARTNER',
         partnerLocation:'Ghorahi, Dang',
@@ -468,7 +468,7 @@ const PartnersData = [
     },
     {
         id:39,
-        partnerImage:'http://maxima.com.np/media/navigation/banner1/nepal-cctv.jpg',
+        partnerImage:'/images/nepal-cctv.jpg',
         partnerCompany:'Nepal CCTV Camera',
         partnerSolutionTitle:'HIKVISION CCTV VALUE ADDED SOLUTION PARTNER',
         partnerLocation:'Nepalgunj, Banke',
@@ -480,7 +480,7 @@ const PartnersData = [
     },
     {
         id:40,
-        partnerImage:'http://maxima.com.np/media/navigation/banner1/ugratara.jpg',
+        partnerImage:'/images/ugratara.jpg',
         partnerCompany:'Ugratara Infosys',
         partnerSolutionTitle:'HIKVISION CCTV VALUE ADDED SOLUTION PARTNER',
         partnerLocation:'Nepalgunj, Nepal',
@@ -491,7 +491,7 @@ const PartnersData = [
     },
     {
         id:41,
-        partnerImage:'http://maxima.com.np/media/navigation/banner1/arun-order.jpg',
+        partnerImage:'/images/arun-order.jpg',
         partnerCompany:'Arun Orders and Suppliers',
         partnerSolutionTitle:'HIKVISION CCTV VALUE ADDED SOLUTION PARTNER',
         partnerLocation:'Bagdula, Pyuthan, Nepal',
@@ -503,7 +503,7 @@ const PartnersData = [
     },
     {
         id:42,
-        partnerImage:'http://maxima.com.np/media/navigation/banner1/siruvai.jpg',
+        partnerImage:'/images/siruvai.jpg',
         partnerCompany:'Siru Vai I.C.E.T Pvt. Ltd.',
         partnerSolutionTitle:'HIKVISION CCTV VALUE ADDED SOLUTION PARTNER',
         partnerLocation:'Nawalparasi, Nepal',
@@ -515,7 +515,7 @@ const PartnersData = [
     },
     {
         id:43,
-        partnerImage:'http://maxima.com.np/media/navigation/banner1/simplify.jpg',
+        partnerImage:'/images/simplify.jpg',
         partnerCompany:'Simplify IT Solution Pvt. Ltd. , Birgunj',
         partnerSolutionTitle:'HIKVISION CCTV VALUE ADDED SOLUTION PARTNER',
         partnerLocation:'Adarshnagar, Birgunj, Nepal (Behind Town Hall Party Palace)',
@@ -528,7 +528,7 @@ const PartnersData = [
     },
     {
         id:44,
-        partnerImage:'http://maxima.com.np/media/navigation/banner1/rion_G4ZTsj3.jpg',
+        partnerImage:'/images/rion_G4ZTsj3.jpg',
         partnerCompany:'Rion Enterprises',
         partnerSolutionTitle:'HIKVISION CCTV VALUE ADDED SOLUTION PARTNER',
         partnerLocation:' Lalbandhi-07, Sarlahi, Nepal',
@@ -540,7 +540,7 @@ const PartnersData = [
     },
     {
         id:45,
-        partnerImage:'http://maxima.com.np/media/navigation/banner1/rsd-en.jpg',
+        partnerImage:'/images/rsd-en.jpg',
         partnerCompany:'RSD Engineering Solution Pvt. Ltd.',
         partnerSolutionTitle:'HIKVISION CCTV VALUE ADDED SOLUTION PARTNER',
         partnerLocation:'Basahiya sixline, Janakpurdham-24, Nepal',
@@ -552,7 +552,7 @@ const PartnersData = [
     },
     {
         id:46,
-        partnerImage:'http://maxima.com.np/media/navigation/banner1/shova.jpg',
+        partnerImage:'/images/shova.jpg',
         partnerCompany:'Shova Supplies',
         partnerSolutionTitle:'HIKVISION CCTV VALUE ADDED SOLUTION PARTNER',
         partnerLocation:'Janakpur, Nepal',
@@ -563,7 +563,7 @@ const PartnersData = [
     },
     {
         id:47,
-        partnerImage:'http://maxima.com.np/media/navigation/banner1/rr-info_fe8dpi9.jpg',
+        partnerImage:'/images/rr-info_fe8dpi9.jpg',
         partnerCompany:'R.R. Infosys',
         partnerSolutionTitle:'HIKVISION CCTV VALUE ADDED SOLUTION PARTNER',
         partnerLocation:'Chapur, Rautahat',
@@ -575,7 +575,7 @@ const PartnersData = [
     },
     {
         id:48,
-        partnerImage:'http://maxima.com.np/media/navigation/banner1/swagat_tP9Qz9U.jpg',
+        partnerImage:'/images/swagat_tP9Qz9U.jpg',
         partnerCompany:'Swagat Enterprises',
         partnerSolutionTitle:'HIKVISION CCTV VALUE ADDED SOLUTION PARTNER',
         partnerLocation:'Gaur, Rautahat, Nepal',
@@ -587,7 +587,7 @@ const PartnersData = [
     },
     {
         id:49,
-        partnerImage:'http://maxima.com.np/media/navigation/banner1/brother.jpg',
+        partnerImage:'/images/brother.jpg',
         partnerCompany:'Brother Electronics and General Store',
         partnerSolutionTitle:'HIKVISION CCTV VALUE ADDED SOLUTION PARTNER',
         partnerLocation:' Lahan, Nepal',
@@ -599,7 +599,7 @@ const PartnersData = [
     },
     {
         id:50,
-        partnerImage:'http://maxima.com.np/media/navigation/banner1/sevenstar.jpg',
+        partnerImage:'/images/sevenstar.jpg',
         partnerCompany:'Seven Star Distribution Pvt. Ltd.',
         partnerSolutionTitle:'HIKVISION CCTV VALUE ADDED SOLUTION PARTNER',
         partnerLocation:'Dhangadhi, Nepal',

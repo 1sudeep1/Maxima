@@ -29,7 +29,7 @@ function Header() {
       <header className={`${isScrolled ? 'header-fix' : ''}`}>
         <div className="container my-1">
           <div className="row align-items-center justify-content-between">
-            <div className="col-lg-4 col-sm-4 col-4 col-md-4">
+            <div className="col-lg-4 col-sm-4 col-4 col-md-4" title='Maxima Multinational Trading Pvt. Ltd.'>
               <Link to="/"><img className='logo img-fluid thumbnails' src={logo} alt="" /></Link>
             </div>
             <div className="col-lg-4 col-8 col-sm-8 col-md-4">
