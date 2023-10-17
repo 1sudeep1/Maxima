@@ -34,7 +34,7 @@ function WishList() {
                                                 <div className="media">
                                                 <Link to={`/single-product/${item.id}`} className="thumbnail pull-left"> <img className="media-object" src={item.productImage} style={{ width: 100, height: 100 }} /> </Link>
                                                     <div className="media-body">
-                                                        <h4 className="media-heading"><a href="#">{item.productTitle}</a></h4>
+                                                        <h4 className="media-heading"><Link to={`/single-product/${item.id}`}>{item.productTitle}</Link></h4>
                                                         <span>Status: </span><span className="text-success"><strong>{item.productStock}</strong></span>
                                                     </div>
                                                 </div>
